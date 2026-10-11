@@ -4,28 +4,27 @@ Oct 11, 2026 · @Nam Anh
 
 ## 0. Thay đổi ngày 11/10/2026
 
-Các điểm dưới đây thay cho số cũ ở mục 1 và mục 3.
+Các điểm dưới đây thay cho số cũ ở mục 1 và mục 3. Kế hoạch theo giai đoạn: xem [ke-hoach-kinh-doanh.md](ke-hoach-kinh-doanh.md).
 
-- **Giá mới:** gói tháng 75k/suất, gói tuần 80k/suất. (Cách hiểu: giá tính trên mỗi suất. Cần chủ dự án xác nhận.)
-- **Lộ trình đơn:**
+- **Giá mới (lần 2):** gói tháng 65k/suất, gói tuần 70k/suất. (Bản trước là 75k/80k, đã giảm vì cao hơn thị trường.)
+- **Lộ trình đơn (có điều kiện):**
   - Tháng 1: 20-50 suất/ngày.
+  - Tháng 2: 100 suất/ngày, **nếu** tháng 1 đạt 50 suất/ngày.
   - Tháng 3: 200 suất/ngày.
-  - Tháng 2: chưa chốt.
-- **Nhân sự:** bắt đầu 2 người. Thêm người nấu và shipper theo số đơn.
+- **Nhân sự:** bắt đầu 2 người. Thêm người nấu và shipper theo số đơn. **Lương chưa tính vào lãi lỗ.**
 - **Thực đơn tuần mẫu:** xem [thuc-don-tuan.md](thuc-don-tuan.md).
 
-Hệ quả cần lưu ý (tính nhanh, ƯỚC TÍNH, dùng giả định cũ: nguyên liệu 20k, bao bì 4k, thuế 4,5%, 22 ngày/tháng):
+Hệ quả (tính nhanh, ƯỚC TÍNH, giả định cũ: nguyên liệu 20k, bao bì 4k, thuế 4,5%, 22 ngày/tháng):
 
-| Chỉ số | Gói tháng 75k | Gói tuần 80k |
+| Chỉ số | Gói tháng 65k | Gói tuần 70k |
 | --- | --- | --- |
-| Lãi đóng góp/suất | khoảng 47,6k | khoảng 52,4k |
-| Doanh thu/tháng ở 30 suất/ngày | khoảng 50 triệu | khoảng 53 triệu |
-| Doanh thu/tháng ở 200 suất/ngày | khoảng 330 triệu | khoảng 352 triệu |
+| Lãi đóng góp/suất | khoảng 38,1k | khoảng 42,9k |
+| Doanh thu/tháng ở 50 suất/ngày | khoảng 71,5 triệu | khoảng 77 triệu |
+| Doanh thu/tháng ở 100 suất/ngày | khoảng 143 triệu | khoảng 154 triệu |
+| Doanh thu/tháng ở 200 suất/ngày | khoảng 286 triệu | khoảng 308 triệu |
 
-- Ở 200 suất/ngày, doanh thu năm khoảng 4-4,2 tỷ. Mức này **vượt 3 tỷ/năm**, nên bắt buộc tính thuế theo thu nhập và cần sổ sách chi phí đầy đủ (xem mục 4).
-- Giá 75-80k cao hơn mức thị trường 40-60k ghi ở mục 1. Cần định vị lại cho hợp giá.
-- Mục "Concept: giá bình dân" ở mục 1 không còn đúng với giá mới.
-- Lương và số người theo từng mức đơn chưa có. Chưa tính được hòa vốn mới.
+- Ở 200 suất/ngày, doanh thu năm khoảng 3,4-3,7 tỷ. Vẫn **vượt 3 tỷ/năm**: bắt buộc tính thuế theo thu nhập, cần sổ sách chi phí đầy đủ (xem mục 4).
+- Lương và số người theo từng mức đơn chưa có. Chưa tính được hòa vốn đầy đủ.
 
 ## 1. Những gì đã chốt
 

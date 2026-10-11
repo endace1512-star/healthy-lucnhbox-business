@@ -29,7 +29,7 @@ Nhận xét:
 - Món lặp lại nhiều nhất: **ức gà áp chảo, gà teriyaki, cá kho tiêu/kho tộ, rau muống, cải thìa, bông cải**.
 - Hầu hết dùng **gạo lứt**. Lala dùng thêm gạo lứt đỏ, đen, tam sắc.
 - Cá hồi và bò xuất hiện nhiều nhưng đắt. Thực đơn dưới đây thay bằng basa, gà, heo.
-- Giá tìm được: Mộc khoảng 57-75k/suất, Lala cơm bò khoảng 70k, Ú Nu 39-50k. Giá 75-80k của dự án ngang hoặc cao hơn các quán này. Số giá đều từ nguồn cũ.
+- Giá tìm được: Mộc khoảng 57-75k/suất, Lala cơm bò khoảng 70k, Ú Nu 39-50k. Giá 65-70k của dự án ngang mức Mộc và Lala, cao hơn Ú Nu. Số giá đều từ nguồn cũ.
 
 ## 3. Thực đơn tuần đề xuất
 
@@ -65,7 +65,7 @@ Mỗi hộp: cơm + 1 món mặn + 1 món rau. Chưa có canh vì khó giao nón
 
 ## 5. Câu hỏi cần chủ dự án chốt
 
-- [ ] Giá 75k/80k là giá mỗi suất đúng không?
+- [x] Giá tính theo suất: 65k (gói tháng), 70k (gói tuần).
 - [ ] Gạo lứt 100%, trộn gạo trắng, hay cho khách chọn?
 - [ ] Có thêm canh không? Nếu có, cần hộp canh riêng có nắp kín.
 - [ ] Có món nguội (gà xé trộn) trong hộp giao nóng được không?
