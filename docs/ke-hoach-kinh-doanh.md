@@ -17,7 +17,7 @@ Ký hiệu:
 | Customer | Dân văn phòng TP.HCM. Khu vực, tòa nhà cụ thể chưa có | [CHỐT] |
 | Positioning | Xem ghi chú bên dưới | [CHỐT] |
 | Price | Gói tháng 65k/suất, gói tuần 70k/suất | Đã chốt |
-| Location / Channel | Bếp gần chợ Bình Điền (Q.8), thuê 8-10 triệu/tháng. Bán qua Facebook/Instagram, Zalo OA. Giao toàn TP.HCM, 9:30-11:30, 1 shipper xe máy | Đã chốt. Xem rủi ro giao hàng ở mục 6 |
+| Location / Channel | Bếp đặt ở **Q.7** (đổi từ Q.8), thuê 8-10 triệu/tháng. Khách ban đầu: Q.1, Q.4, Q.7, khu Trung Sơn (Bình Chánh). Bán qua Facebook/Instagram, Zalo OA. Giao 9:30-11:30, 1 shipper xe máy | Đã chốt. Checklist tìm mặt bằng: [tim-mat-bang.md](tim-mat-bang.md) |
 
 **Ghi chú về Positioning:**
 - Giá 65-70k không còn là "bình dân". Ngang Mộc Eat Clean, Lala Salad, cao hơn cơm văn phòng thường (39-50k).
@@ -272,7 +272,7 @@ Chi tiết và công thức: [ke-hoach-tai-chinh.xlsx](ke-hoach-tai-chinh.xlsx).
 - Với 50 suất cần trung bình 8-9 suất mỗi điểm. Với 100 suất cần khoảng 17 suất mỗi điểm. Khách lẻ rải khắp thành phố sẽ không giao kịp.
 - Giao từ 9:30 nhưng khách ăn khoảng 11:30-12:00. Hộp sẽ nguội, trái với yêu cầu "bắt buộc giao nóng". WHO khuyến cáo không để thức ăn chín ở nhiệt độ thường quá 2 giờ ([nguồn](https://www.who.int/publications/i/item/9789241594639)).
 - Đề xuất:
-  - Giai đoạn đầu chỉ nhận khách ở các quận gần Q.8 có nhiều văn phòng (ví dụ Q.1, Q.3, Q.4, Q.5, Q.7) [CHỐT].
+  - ~~Giai đoạn đầu chỉ nhận khách ở các quận gần bếp~~: đã chốt Q.1, Q.4, Q.7, Trung Sơn. Bếp đặt ở Q.7.
   - Ưu tiên khách theo nhóm hoặc theo tòa nhà, giao 1 điểm nhiều suất.
   - Đo nhiệt độ hộp lúc giao và lúc khách ăn khi Soft open.
   - Từ 100 suất trở lên: thêm shipper hoặc thuê ship ngoài cho đơn lẻ.
