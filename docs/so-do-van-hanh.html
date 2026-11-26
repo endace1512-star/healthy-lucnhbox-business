@@ -1,0 +1,743 @@
+<title>Sơ đồ vận hành bếp</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@600;700;800&family=Inter:wght@400;500;600;700&family=Roboto+Mono:wght@500&display=swap">
+<style>
+/* Bố cục: một thân dọc bên trái nối 12 nhánh; mỗi nhánh mọc sang phải thành các ý con. Điện thoại: nhánh xếp chồng, ý con thụt vào dưới. */
+:root{
+  --bg:#F4F6F1; --surface:#FFFFFF; --fg:#1C251F; --muted:#56635A; --line:#BFCBC1; --grid:#E2E7DF;
+  --flow:#2D684C; --flow-soft:#E1EEE5; --flow-line:#97BFA7;
+  --base:#8A5A2C; --base-soft:#F3E8DC; --base-line:#D0AE8A;
+  --xm:#2A5D8B; --xm-soft:#E2EBF4;
+  --ut:#7A5E0F; --ut-soft:#F4ECCD;
+  --chot:#A02E47; --chot-soft:#F7E1E6;
+  --hoi:#664790; --hoi-soft:#ECE5F6;
+  --risk:#B03826; --risk-soft:#FAE3DD;
+  --ship:#93660F; --ship-soft:#F6E6C6;
+  --f-display:"Be Vietnam Pro","Inter",system-ui,sans-serif;
+  --f-body:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --f-mono:"Roboto Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#111613; --surface:#19201B; --fg:#E4EBE5; --muted:#9BA89F; --line:#34423A; --grid:#252E28;
+    --flow:#7DC3A0; --flow-soft:#1D3127; --flow-line:#3D6A53;
+    --base:#DCA875; --base-soft:#32271B; --base-line:#6E5337;
+    --xm:#8DB7DF; --xm-soft:#1B2937;
+    --ut:#E2C267; --ut-soft:#322A13;
+    --chot:#F08BA1; --chot-soft:#3A1D25;
+    --hoi:#C4A8EB; --hoi-soft:#2A2137;
+    --risk:#F2866F; --risk-soft:#3A1F19;
+    --ship:#E7B85A; --ship-soft:#352A14;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#111613; --surface:#19201B; --fg:#E4EBE5; --muted:#9BA89F; --line:#34423A; --grid:#252E28;
+  --flow:#7DC3A0; --flow-soft:#1D3127; --flow-line:#3D6A53;
+  --base:#DCA875; --base-soft:#32271B; --base-line:#6E5337;
+  --xm:#8DB7DF; --xm-soft:#1B2937;
+  --ut:#E2C267; --ut-soft:#322A13;
+  --chot:#F08BA1; --chot-soft:#3A1D25;
+  --hoi:#C4A8EB; --hoi-soft:#2A2137;
+  --risk:#F2866F; --risk-soft:#3A1F19;
+  --ship:#E7B85A; --ship-soft:#352A14;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.5}
+a{color:var(--xm)}
+.wrap{max-width:1120px;margin:0 auto;padding-block:28px 72px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0}
+.eyebrow{margin:0 0 6px;font:600 12px/1.4 var(--f-body);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-weight:800;font-size:clamp(28px,4.2vw,40px);line-height:1.12;letter-spacing:-.01em}
+.lede{margin:10px 0 0;max-width:64ch;color:var(--muted)}
+.legend{display:flex;flex-wrap:wrap;gap:8px 18px;margin:18px 0 0;padding:0;list-style:none;font-size:13px;color:var(--muted)}
+.legend li{display:flex;align-items:center;gap:6px}
+.legend .tag{margin:0}
+
+/* nhãn trạng thái */
+.tag{display:inline-block;margin-left:6px;padding:0 7px;border-radius:999px;font:700 10.5px/1.75 var(--f-body);letter-spacing:.03em;white-space:nowrap;vertical-align:1px}
+.t-ok{background:var(--flow-soft);color:var(--flow)}
+.t-new{background:var(--flow);color:var(--surface)}
+.t-xm{color:var(--xm);box-shadow:inset 0 0 0 1.2px currentColor}
+.t-ut{color:var(--ut);background:var(--ut-soft)}
+.t-chot{color:var(--chot);background:var(--chot-soft)}
+.t-hoi{color:var(--hoi);background:var(--hoi-soft)}
+.t-risk{color:var(--surface);background:var(--risk)}
+
+/* thanh lọc */
+.toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:26px 0 18px}
+.toolbar .lbl{font:600 12px/1 var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-right:2px}
+.fbtn,.abtn{font:500 13px/1 var(--f-body);color:var(--fg);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:8px 12px;cursor:pointer;display:inline-flex;gap:6px;align-items:center}
+.fbtn .n{font:500 11.5px/1 var(--f-mono);color:var(--muted)}
+.fbtn[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.fbtn[aria-pressed="true"] .n{color:var(--bg)}
+.abtn{border-style:dashed;background:transparent}
+.toolbar .sp{flex:1 1 12px}
+button:focus-visible{outline:2px solid var(--xm);outline-offset:2px}
+
+/* sơ đồ */
+.map{position:relative}
+.root{background:var(--fg);color:var(--bg);border-radius:16px;padding:16px 20px 18px;max-width:600px}
+.root h2{font-weight:800;font-size:22px;line-height:1.2}
+.root ul{list-style:none;margin:10px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.root li{font:500 12.5px/1 var(--f-body);padding:6px 9px;border-radius:999px;background:color-mix(in srgb,var(--bg) 14%,transparent);color:var(--bg)}
+.glabel,.branch{position:relative;padding-left:48px}
+.glabel::before,.branch::before{content:"";position:absolute;left:22px;top:0;bottom:0;border-left:2px solid var(--line)}
+.glabel{padding-top:22px;padding-bottom:6px}
+.glabel::after{content:"";position:absolute;left:16px;top:27px;width:14px;height:14px;border-radius:50%;background:var(--bg);border:2px solid var(--line)}
+.glabel b{display:block;font:700 12.5px/1.3 var(--f-body);letter-spacing:.08em;text-transform:uppercase}
+.glabel.g-flow b{color:var(--flow)}
+.glabel.g-base b{color:var(--base)}
+.glabel span{display:block;font-size:13.5px;color:var(--muted);margin-top:2px}
+.branch{padding-top:8px;padding-bottom:8px}
+.branch::after{content:"";position:absolute;left:22px;top:30px;width:26px;border-top:2px solid var(--line)}
+.map>.branch:last-child::before{bottom:auto;height:30px}
+.flow{--g:var(--flow);--gs:var(--flow-soft);--gl:var(--flow-line)}
+.base{--g:var(--base);--gs:var(--base-soft);--gl:var(--base-line)}
+.binner{display:grid;grid-template-columns:252px minmax(0,1fr);align-items:start}
+.bnode{position:relative;display:flex;gap:10px;align-items:flex-start;padding:10px 10px 10px 12px;border-radius:12px;background:var(--surface);border:1.5px solid var(--g)}
+.bnode::after{content:"";position:absolute;left:100%;top:22px;width:24px;border-top:2px solid var(--gl)}
+.num{flex:none;width:24px;height:24px;border-radius:50%;background:var(--g);color:var(--surface);font:700 13px/24px var(--f-display);text-align:center}
+.dot{flex:none;width:12px;height:12px;margin:5px 6px 0 6px;border-radius:3px;background:var(--g)}
+.bt{min-width:0;flex:1}
+.bt h3{font-weight:700;font-size:15.5px;line-height:1.3}
+.when{margin:3px 0 0;font:500 12.5px/1.4 var(--f-body);font-variant-numeric:tabular-nums;color:var(--muted)}
+.cnt{display:none}
+.collapsed .cnt{display:inline}
+.tog{flex:none;width:30px;height:30px;border-radius:8px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer;display:grid;place-items:center}
+.tog svg{transition:transform .18s ease}
+.collapsed .tog svg{transform:rotate(-90deg)}
+.collapsed .bnode::after{display:none}
+.leaves{list-style:none;margin:0 0 0 24px;padding:8px 0 0}
+.leaves>li{position:relative;padding:3px 0 3px 24px;font-size:14.5px}
+.leaves>li::after{content:"";position:absolute;left:0;top:0;width:16px;height:14px;border-left:2px solid var(--gl);border-bottom:2px solid var(--gl);border-bottom-left-radius:8px}
+.leaves>li::before{content:"";position:absolute;left:0;top:14px;bottom:0;border-left:2px solid var(--gl)}
+.leaves>li:last-child::before{display:none}
+.leaves>li:first-child::after{top:14px;height:0;border-left:0;border-bottom:0;border-top:2px solid var(--gl);border-radius:0}
+.sub{list-style:none;margin:4px 0 3px;padding:0;display:grid;gap:2px}
+.sub li{position:relative;padding-left:15px;font-size:13.5px;color:var(--muted)}
+.sub li::before{content:"";position:absolute;left:3px;top:.6em;width:5px;height:5px;border-radius:50%;background:var(--gl)}
+.leaves>li.dim{opacity:.3}
+.branch.dim-b .bnode{opacity:.45}
+
+/* phần dưới */
+section.blk{margin-top:56px}
+section.blk>h2{font-weight:800;font-size:clamp(22px,3vw,28px);line-height:1.2}
+section.blk>.intro{margin:8px 0 18px;max-width:68ch;color:var(--muted)}
+figure{margin:0}
+.tl-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:14px;background:var(--surface);padding:14px 14px 8px}
+.tl-scroll svg{display:block;width:100%;min-width:960px;height:auto}
+figcaption{margin-top:10px;font-size:13.5px;color:var(--muted);max-width:76ch}
+.tl-legend{display:flex;flex-wrap:wrap;gap:6px 16px;list-style:none;padding:0;margin:12px 0 0;font-size:13px;color:var(--muted)}
+.tl-legend li{display:flex;align-items:center;gap:6px}
+.sw{width:18px;height:12px;border-radius:3px;border:1.2px solid var(--line)}
+.sw.cook{background:var(--flow-soft);border-color:var(--flow-line)}
+.sw.office{background:var(--xm-soft);border-color:var(--xm)}
+.sw.ship{background:var(--ship-soft);border-color:var(--ship)}
+.sw.supply{background:var(--base-soft);border-color:var(--base-line)}
+.sw.cust{background:var(--surface)}
+.sw.dash{background:transparent;border-style:dashed;border-color:var(--muted)}
+.tl-seg{font:700 12px var(--f-body);letter-spacing:.08em;fill:var(--muted)}
+.tl-tick{font:500 12px var(--f-mono);fill:var(--muted)}
+.tl-grid{stroke:var(--grid);stroke-width:1}
+.tl-lane{font:600 13px var(--f-body);fill:var(--fg)}
+.tl-sub{font:500 11.5px var(--f-body);fill:var(--muted)}
+.tl-gap{fill:var(--grid)}
+.tl-gapt{font:600 11.5px var(--f-body);fill:var(--muted);letter-spacing:.08em}
+.blk-r{stroke-width:1.2}
+.b-cook{fill:var(--flow-soft);stroke:var(--flow-line)}
+.b-office{fill:var(--xm-soft);stroke:var(--xm)}
+.b-ship{fill:var(--ship-soft);stroke:var(--ship)}
+.b-supply{fill:var(--base-soft);stroke:var(--base-line)}
+.b-cust{fill:var(--bg);stroke:var(--line)}
+.dashed{stroke-dasharray:5 4;stroke:var(--muted)}
+.tl-bt{font:500 12.5px var(--f-body);fill:var(--fg);text-anchor:middle}
+.mk-chot{stroke:var(--chot);stroke-width:1.5;stroke-dasharray:4 3;fill:none}
+.mk-pack{stroke:var(--muted);stroke-width:1.5;stroke-dasharray:4 3;fill:none}
+.br-ok{stroke:var(--flow);stroke-width:3;fill:none}
+.br-bad{stroke:var(--risk);stroke-width:3;fill:none}
+.tx-chot{font:600 12px var(--f-body);fill:var(--chot)}
+.tx-ok{font:600 12px var(--f-body);fill:var(--flow);text-anchor:middle}
+.tx-bad{font:600 12px var(--f-body);fill:var(--risk);text-anchor:middle}
+.tx-pack{font:600 12px var(--f-body);fill:var(--muted)}
+.dia{fill:var(--base);stroke:none}
+
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:var(--surface)}
+table{width:100%;border-collapse:collapse;font-size:14px;min-width:560px}
+th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--grid);vertical-align:top}
+th{font:600 12px/1.3 var(--f-body);letter-spacing:.05em;text-transform:uppercase;color:var(--muted);background:var(--bg)}
+tr:last-child td{border-bottom:0}
+td.r,th.r{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+td b{font-family:var(--f-display)}
+.note{margin:12px 0 0;font-size:13.5px;color:var(--muted);max-width:76ch}
+.callout{margin-top:18px;padding:14px 16px;border-radius:12px;background:var(--base-soft);max-width:80ch}
+.callout h3{font-size:15px;margin-bottom:4px}
+.callout p{margin:0;font-size:14.5px}
+
+.todo{list-style:none;counter-reset:t;margin:0;padding:0;display:grid;gap:10px;max-width:84ch}
+.todo li{counter-increment:t;position:relative;padding:12px 14px 12px 50px;background:var(--surface);border:1px solid var(--line);border-radius:12px}
+.todo li::before{content:counter(t);position:absolute;left:14px;top:12px;width:24px;height:24px;border-radius:50%;background:var(--chot-soft);color:var(--chot);font:700 13px/24px var(--f-display);text-align:center}
+.todo b{font-family:var(--f-display);font-weight:700}
+.todo p{margin:3px 0 0;font-size:14px;color:var(--muted)}
+.src{margin:0;padding-left:18px;font-size:13.5px;color:var(--muted);display:grid;gap:4px;max-width:84ch}
+.src a{overflow-wrap:anywhere}
+.foot{margin-top:40px;font-size:13px;color:var(--muted)}
+code{font:500 12.5px var(--f-mono);background:var(--grid);padding:1px 5px;border-radius:5px}
+
+@media (max-width:860px){
+  .glabel,.branch{padding-left:30px}
+  .glabel::before,.branch::before{left:10px}
+  .glabel::after{left:4px}
+  .branch::after{left:10px;width:20px}
+  .binner{display:block}
+  .bnode::after{left:14px;top:100%;width:0;height:8px;border-top:0;border-left:2px solid var(--gl)}
+  .leaves{margin-left:14px;padding-top:8px}
+  .leaves>li:first-child::after{top:0;height:14px;border-top:0;border-left:2px solid var(--gl);border-bottom:2px solid var(--gl);border-bottom-left-radius:8px}
+}
+@media (prefers-reduced-motion:reduce){.tog svg{transition:none}}
+</style>
+
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Bếp cơm trưa healthy · bản nháp 1 · 26/11/2026</p>
+    <h1>Sơ đồ vận hành bếp</h1>
+    <p class="lede">Bảy khâu lặp lại mỗi ngày, cộng năm phần chạy suốt mọi khâu. Mỗi ý có nhãn để bạn biết ý đó đã chốt, đã có nguồn, chỉ là ước tính, hay còn chờ bạn quyết.</p>
+    <ul class="legend" aria-label="Chú thích nhãn">
+      <li><span class="tag t-ok">Đã chốt</span> bạn đã quyết trước đây</li>
+      <li><span class="tag t-new">Chốt 26/11</span> bạn vừa quyết hôm nay</li>
+      <li><span class="tag t-xm">XM</span> đã xác minh, có nguồn</li>
+      <li><span class="tag t-ut">ƯT</span> ước tính, cần đo thực tế</li>
+      <li><span class="tag t-chot">CHỐT</span> bạn cần quyết</li>
+      <li><span class="tag t-hoi">HỎI</span> cần hỏi kế toán, Sở ATTP, chủ nhà</li>
+      <li><span class="tag t-risk">Rủi ro</span> có thể làm hỏng kế hoạch</li>
+    </ul>
+  </header>
+
+  <div class="toolbar" role="toolbar" aria-label="Lọc sơ đồ">
+    <span class="lbl">Lọc</span>
+    <button class="fbtn" type="button" id="f-all" data-f="all" aria-pressed="true">Tất cả</button>
+    <button class="fbtn" type="button" id="f-chot" data-f="chot" aria-pressed="false">Cần chốt, cần hỏi <span class="n"></span></button>
+    <button class="fbtn" type="button" id="f-risk" data-f="risk" aria-pressed="false">Rủi ro <span class="n"></span></button>
+    <button class="fbtn" type="button" id="f-ut" data-f="ut" aria-pressed="false">Ước tính <span class="n"></span></button>
+    <button class="fbtn" type="button" id="f-new" data-f="moi" aria-pressed="false">Chốt hôm nay <span class="n"></span></button>
+    <span class="sp"></span>
+    <button class="abtn" type="button" id="openAll">Mở hết</button>
+    <button class="abtn" type="button" id="closeAll">Thu gọn</button>
+  </div>
+
+  <div class="map">
+    <div class="root">
+      <h2>Bếp cơm trưa healthy</h2>
+      <ul>
+        <li>Bếp ở Q.7</li>
+        <li>Cơm gạo lứt</li>
+        <li>Gói tuần 70k, gói tháng 65k</li>
+        <li>50 → 100 → 200 suất/ngày</li>
+        <li>Giao 9:30-11:30</li>
+      </ul>
+    </div>
+
+    <div class="glabel g-flow"><b>Vòng lặp mỗi ngày</b><span>Khâu 7 xong thì quay về khâu 1 cho ngày hôm sau.</span></div>
+
+    <section class="branch flow" id="b1">
+      <div class="binner">
+        <div class="bnode">
+          <span class="num">1</span>
+          <div class="bt"><h3>Nhận đơn và chốt suất</h3><p class="when">Hôm trước, chốt lúc 14:00<span class="cnt"></span></p></div>
+          <button class="tog" type="button" aria-expanded="true" aria-controls="l1" aria-label="Thu gọn nhánh"><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M3 5l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+        <ul class="leaves" id="l1">
+          <li>Bán qua Facebook, Instagram, Zalo OA.<span class="tag t-ok">Đã chốt</span></li>
+          <li>Hai gói: tuần 70k/suất, tháng 65k/suất. Dự tính 50% khách mỗi loại.<span class="tag t-new">Chốt 26/11</span></li>
+          <li>Form đăng ký cần lấy đủ:
+            <ul class="sub">
+              <li>Tên, số Zalo</li>
+              <li>Tòa nhà, tầng, giờ nhận</li>
+              <li>Món kiêng, dị ứng</li>
+              <li>Ngày bắt đầu gói</li>
+            </ul>
+          </li>
+          <li>Chỉ nhận khách ở Q.1, Q.4, Q.7, Trung Sơn.<span class="tag t-ok">Đã chốt</span></li>
+          <li>Chuyển khoản VietQR, SePay tự xác nhận. Cần gói trả phí vì gói miễn phí chỉ có 50 giao dịch/tháng.<span class="tag t-xm">XM</span></li>
+          <li>Giờ chốt đơn và báo nghỉ cho ngày mai: đề xuất 14:00 hôm trước, để kịp đặt hàng mối theo số suất chính xác.<span class="tag t-chot">CHỐT</span></li>
+          <li>Khách báo nghỉ trước giờ chốt thì cộng dồn suất. Báo sau giờ chốt thì vẫn tính suất hay cộng dồn?<span class="tag t-chot">CHỐT</span></li>
+          <li>Xuất danh sách ngày mai: số suất theo món, theo tòa nhà, theo dị ứng.</li>
+          <li>Nhắc gia hạn qua tin Zalo ZNS trước 2-3 ngày, 200-300đ/tin.<span class="tag t-xm">XM</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="branch flow" id="b2">
+      <div class="binner">
+        <div class="bnode">
+          <span class="num">2</span>
+          <div class="bt"><h3>Thực đơn và định lượng</h3><p class="when">Mỗi tuần, gửi menu thứ 6<span class="cnt"></span></p></div>
+          <button class="tog" type="button" aria-expanded="true" aria-controls="l2" aria-label="Thu gọn nhánh"><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M3 5l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+        <ul class="leaves" id="l2">
+          <li>Mỗi hộp: cơm gạo lứt, 1 món mặn, 1 món rau.<span class="tag t-new">Chốt 26/11</span></li>
+          <li>4 nguồn đạm: gà, basa, heo, đậu hũ. Bản nháp chưa có bò, cá hồi.</li>
+          <li>Đủ 4 cách nấu: nướng hoặc áp chảo, hấp hoặc luộc, xào kho chiên, trộn nguội.<span class="tag t-ok">Đã chốt</span></li>
+          <li>Xoay vòng 2-4 tuần. Tuần sau giữ nguyên liệu, chỉ đổi cách nấu.</li>
+          <li>Công thức chuẩn: số gram cơm, đạm, rau cho từng món. Cân thử khi nấu thử nội bộ.<span class="tag t-ut">ƯT</span></li>
+          <li>Giá vốn từng hộp. Bảng tính đang để nguyên liệu 20k/suất.<span class="tag t-ut">ƯT</span></li>
+          <li>Gạo lứt đắt hơn gạo trắng. Bảng mua sắm đang ghi giá gạo trắng 15,5-19k/kg, cần tra lại.<span class="tag t-ut">ƯT</span></li>
+          <li>Lượng mua = số suất × định lượng × 1,04 (hao hụt 4%).<span class="tag t-ut">ƯT</span></li>
+          <li>Còn mở: có canh không, có món nguội không, mỗi tuần có món bò không.<span class="tag t-chot">CHỐT</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="branch flow" id="b3">
+      <div class="binner">
+        <div class="bnode">
+          <span class="num">3</span>
+          <div class="bt"><h3>Mua hàng</h3><p class="when">Đặt 14:00-15:30, nhận 5:00 sáng<span class="cnt"></span></p></div>
+          <button class="tog" type="button" aria-expanded="true" aria-controls="l3" aria-label="Thu gọn nhánh"><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M3 5l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+        <ul class="leaves" id="l3">
+          <li class="risk">Chợ Bình Điền họp chủ yếu từ tối tới rạng sáng: rau và gia cầm từ 22:00, heo bò từ 0:00. Lịch cũ đi chợ lúc 15:30 sẽ không khớp.<span class="tag t-xm">XM</span><span class="tag t-risk">Rủi ro</span>
+            <ul class="sub">
+              <li>Các nguồn ghi giờ hơi khác nhau. Nên hỏi ban quản lý chợ.</li>
+            </ul>
+          </li>
+          <li>Chọn cách mua hàng:<span class="tag t-chot">CHỐT</span>
+            <ul class="sub">
+              <li>Đề xuất: mối ở Bình Điền chở hàng tới bếp lúc 4:30-5:30 sáng.</li>
+              <li>Hoặc: mua đạm buổi chiều ở chợ lẻ, siêu thị sỉ gần Q.7. Giá cao hơn.</li>
+              <li>Hoặc: chủ tự đi chợ đêm. Rất mệt, khó làm lâu dài.</li>
+            </ul>
+          </li>
+          <li>Mua đạm phi lê, cắt sẵn để sơ chế buổi sáng cho nhanh. Không mua máy thái thịt.</li>
+          <li>Mỗi tuần: gạo lứt, đồ khô, gia vị, dầu ăn.</li>
+          <li>Mỗi 2-4 tuần: hộp, túi, nhãn, đũa, gas.</li>
+          <li>2 mối chính (thịt cá, rau) và 1 mối dự phòng.</li>
+          <li>Kiểm thực bước 1 khi nhận hàng: màu, mùi, nhiệt độ, hạn dùng. Ghi sổ.<span class="tag t-xm">XM</span></li>
+          <li>Giữ hóa đơn, phiếu mua. Cần cho sổ chi phí và thuế.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="branch flow" id="b4">
+      <div class="binner">
+        <div class="bnode">
+          <span class="num">4</span>
+          <div class="bt"><h3>Sơ chế và bảo quản</h3><p class="when">Chiều hôm trước và 5:00-6:00<span class="cnt"></span></p></div>
+          <button class="tog" type="button" aria-expanded="true" aria-controls="l4" aria-label="Thu gọn nhánh"><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M3 5l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+        <ul class="leaves" id="l4">
+          <li>Đi một chiều: nhận hàng → sơ chế → nấu → chia hộp → giao. Đồ sống để riêng đồ chín.</li>
+          <li>Chiều hôm trước: củ quả trữ được (cà rốt, bông cải, đậu que), nấu sốt, chuẩn bị gia vị.</li>
+          <li>Sáng ngày bán: rửa rau lá, ướp đạm 30-60 phút.<span class="tag t-ut">ƯT</span></li>
+          <li>Máy thái rau YC-380 cho củ quả.</li>
+          <li>Gạo lứt: ngâm trong ngăn mát từ chiều, hoặc nấu không ngâm nhưng lâu hơn. Nấu thử để chọn.<span class="tag t-ut">ƯT</span></li>
+          <li>Tủ mát dưới 5°C. Ghi nhiệt độ tủ mỗi ngày.<span class="tag t-xm">XM</span></li>
+          <li>Ghi ngày lên hộp nguyên liệu. Hàng nhập trước dùng trước.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="branch flow" id="b5">
+      <div class="binner">
+        <div class="bnode">
+          <span class="num">5</span>
+          <div class="bt"><h3>Nấu</h3><p class="when">5:30 đến 8:15<span class="cnt"></span></p></div>
+          <button class="tog" type="button" aria-expanded="true" aria-controls="l5" aria-label="Thu gọn nhánh"><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M3 5l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+        <ul class="leaves" id="l5">
+          <li>Vào cơm gạo lứt đầu tiên. Gạo lứt cần nhiều nước hơn và nấu lâu hơn gạo trắng.<span class="tag t-ut">ƯT</span></li>
+          <li>Tủ cơm 12 khay vừa nấu cơm vừa hấp rau. Cần tính số khay và thứ tự mẻ.<span class="tag t-ut">ƯT</span></li>
+          <li>Nướng: lò đối lưu 4 khay, 5,8kW.</li>
+          <li>Áp chảo, chiên: bếp chiên phẳng gas.</li>
+          <li>Xào: chảo rang tự đảo 20-25 suất/mẻ. 200 suất cần 8-10 mẻ.<span class="tag t-ut">ƯT</span></li>
+          <li>Tủ cơm điện và lò chạy cùng lúc cần khoảng 18kW. Mặt bằng không có điện 3 pha thì chọn tủ cơm gas.<span class="tag t-hoi">HỎI</span>
+            <ul class="sub">
+              <li>Hỏi khi đi xem mặt bằng.</li>
+            </ul>
+          </li>
+          <li>Kiểm thực bước 2: đạm chín tới lõi 70°C. Ghi sổ.<span class="tag t-xm">XM</span></li>
+          <li>Nấu càng sát giờ đóng hộp càng tốt.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="branch flow" id="b6">
+      <div class="binner">
+        <div class="bnode">
+          <span class="num">6</span>
+          <div class="bt"><h3>Chia phần và đóng hộp</h3><p class="when">8:15 đến 9:30<span class="cnt"></span></p></div>
+          <button class="tog" type="button" aria-expanded="true" aria-controls="l6" aria-label="Thu gọn nhánh"><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M3 5l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+        <ul class="leaves" id="l6">
+          <li>Dây chuyền: cơm → món mặn → rau → đậy nắp → dán nhãn.</li>
+          <li>Cân thử khoảng 1 trong 10 hộp để giữ đúng định lượng.<span class="tag t-ut">ƯT</span></li>
+          <li>Nhãn in nhiệt: mã khách, tòa nhà, món, ngày, ghi chú dị ứng.</li>
+          <li>Hộp nắp gài hay hộp dán màng.<span class="tag t-chot">CHỐT</span></li>
+          <li>Lưu mẫu mỗi món: ít nhất 100g, tủ riêng 2-8°C, giữ 24 giờ.<span class="tag t-xm">XM</span></li>
+          <li>Kiểm thực bước 3 trước khi giao.<span class="tag t-xm">XM</span></li>
+          <li>Xếp túi giữ nhiệt theo tuyến và theo tòa nhà. Chờ trong tủ giữ nóng.</li>
+          <li>Ghi giờ đóng xong. Từ giờ này bắt đầu đếm mốc 2 giờ.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="branch flow" id="b7">
+      <div class="binner">
+        <div class="bnode">
+          <span class="num">7</span>
+          <div class="bt"><h3>Giao hàng</h3><p class="when">9:30 đến 11:30<span class="cnt"></span></p></div>
+          <button class="tog" type="button" aria-expanded="true" aria-controls="l7" aria-label="Thu gọn nhánh"><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M3 5l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+        <ul class="leaves" id="l7">
+          <li>Khung giao 9:30-11:30.<span class="tag t-ok">Đã chốt</span></li>
+          <li class="risk">Hộp đóng xong khoảng 9:15, khách ăn 11:30-12:30. WHO khuyên không để thức ăn chín ở nhiệt độ thường quá 2 giờ, trừ khi giữ trên 60°C.<span class="tag t-xm">XM</span><span class="tag t-risk">Rủi ro</span>
+            <ul class="sub">
+              <li>Cách giảm: nấu 2 đợt theo tuyến, lùi giờ giao, hoặc đo nhiệt độ thật khi bán thử rồi quyết.<span class="tag t-chot">CHỐT</span></li>
+            </ul>
+          </li>
+          <li>Hai tuyến gợi ý:<span class="tag t-ut">ƯT</span>
+            <ul class="sub">
+              <li>Tuyến A: Q.7 và Trung Sơn, theo Nguyễn Văn Linh.</li>
+              <li>Tuyến B: Q.4 và Q.1, qua cầu Kênh Tẻ hoặc Tân Thuận.</li>
+            </ul>
+          </li>
+          <li>Giao gom ở sảnh tòa nhà. 1 người giao đi được khoảng 6 điểm trong 2 giờ.<span class="tag t-ut">ƯT</span></li>
+          <li>1 chuyến chở khoảng 60 suất, bằng 2 túi 70L và 2 túi đôi 90L.<span class="tag t-ut">ƯT</span></li>
+          <li>Nhắn Zalo khi tới. Chụp ảnh hộp lúc giao.</li>
+          <li>Trễ, sai món, đổ hộp: báo chủ, gửi bù hoặc ghi vào danh sách hoàn tiền.</li>
+          <li>Đo khi bán thử: số phút mỗi điểm, nhiệt độ hộp lúc giao và lúc khách ăn.</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="glabel g-base"><b>Chạy suốt mọi khâu</b><span>Không theo giờ, nhưng khâu nào cũng dựa vào.</span></div>
+
+    <section class="branch base" id="c1">
+      <div class="binner">
+        <div class="bnode">
+          <span class="dot" aria-hidden="true"></span>
+          <div class="bt"><h3>Khách và khiếu nại</h3><p class="when">Sau mỗi bữa<span class="cnt"></span></p></div>
+          <button class="tog" type="button" aria-expanded="true" aria-controls="m1" aria-label="Thu gọn nhánh"><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M3 5l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+        <ul class="leaves" id="m1">
+          <li>Hỏi góp ý sau bữa: 1 câu qua Zalo.</li>
+          <li>Hoàn tiền trong 7 ngày nếu khách khiếu nại về chất lượng.<span class="tag t-new">Chốt 26/11</span></li>
+          <li>Cần làm rõ trước khi in chính sách:<span class="tag t-chot">CHỐT</span>
+            <ul class="sub">
+              <li>7 ngày tính từ ngày ăn, hay là hạn bếp phải trả tiền?</li>
+              <li>Hoàn suất bị lỗi, hay cả phần còn lại của gói?</li>
+              <li>Thế nào là lỗi chất lượng: nguội, thiếu lượng, lạ mùi, sai món?</li>
+            </ul>
+          </li>
+          <li>Mẫu lưu chỉ giữ 24 giờ. Sau đó chỉ còn ảnh của khách để đối chiếu, nên xin ảnh ngay khi khách khiếu nại.</li>
+          <li>Sổ khiếu nại: ngày, món, lỗi, cách xử lý. Xem lại cuối tuần.</li>
+          <li>Dị ứng: lấy từ form, in lên nhãn, kiểm lại lúc đóng hộp.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="branch base" id="c2">
+      <div class="binner">
+        <div class="bnode">
+          <span class="dot" aria-hidden="true"></span>
+          <div class="bt"><h3>Lịch tuần và lễ Tết</h3><p class="when">Thứ 2-6, 22 ngày/tháng<span class="cnt"></span></p></div>
+          <button class="tog" type="button" aria-expanded="true" aria-controls="m2" aria-label="Thu gọn nhánh"><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M3 5l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+        <ul class="leaves" id="m2">
+          <li>Ngày lễ vẫn bán bình thường, trừ Tết.<span class="tag t-new">Chốt 26/11</span></li>
+          <li>Ngày lễ ngoài Tết theo luật: 1/1, Giỗ Tổ 10/3 âm lịch, 30/4, 1/5, 2/9 và 1 ngày liền kề. Khoảng 6 ngày/năm.<span class="tag t-xm">XM</span></li>
+          <li>Có nguồn ghi từ 2026 thêm ngày 24/11 (Ngày Văn hóa Việt Nam). Các nguồn chưa thống nhất.<span class="tag t-hoi">HỎI</span></li>
+          <li class="risk">Ngày lễ văn phòng thường đóng cửa. Khách không có ở tòa nhà để nhận hộp.<span class="tag t-risk">Rủi ro</span>
+            <ul class="sub">
+              <li>Chọn 1 cách: giao về nhà, cộng dồn suất, hay nghỉ luôn ngày đó.<span class="tag t-chot">CHỐT</span></li>
+            </ul>
+          </li>
+          <li>Tết: nghỉ. Nghỉ mấy ngày, gói tháng trừ ngày nghỉ hay cộng dồn sang sau Tết?<span class="tag t-chot">CHỐT</span></li>
+          <li>Mùa thi và dịp Tết, sinh viên ít rảnh hoặc về quê. Cần sẵn người dự phòng.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="branch base" id="c3">
+      <div class="binner">
+        <div class="bnode">
+          <span class="dot" aria-hidden="true"></span>
+          <div class="bt"><h3>Nhân sự và ca làm</h3><p class="when">Xếp ca mỗi tuần<span class="cnt"></span></p></div>
+          <button class="tog" type="button" aria-expanded="true" aria-controls="m3" aria-label="Thu gọn nhánh"><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M3 5l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+        <ul class="leaves" id="m3">
+          <li>2 chủ: nấu chính, quản lý, kiểm tra chất lượng.</li>
+          <li>Không có full time. Sinh viên part-time 25-30k/giờ.<span class="tag t-new">Chốt 26/11</span></li>
+          <li>Ưu tiên máy trước người.<span class="tag t-new">Chốt 26/11</span>
+            <ul class="sub">
+              <li>Lương 25-30k/giờ khá thấp, nên nhiều máy hoàn vốn chậm. Ưu tiên máy giúp kịp giờ, hơn là máy chỉ để bớt người. Xem phần "Cần bao nhiêu người".</li>
+            </ul>
+          </li>
+          <li>Ca part-time gợi ý: sơ chế 15:30-17:30, đóng hộp 8:15-9:15, giao 9:15-11:45.<span class="tag t-ut">ƯT</span></li>
+          <li>Ngày lễ trả lương x2.<span class="tag t-new">Chốt 26/11</span></li>
+          <li class="risk">Bộ luật Lao động 2019 (Điều 98): làm ngày lễ được trả ít nhất 300%, kể cả người làm part-time. Mức x2 có thể thấp hơn luật.<span class="tag t-xm">XM</span><span class="tag t-risk">Rủi ro</span>
+            <ul class="sub">
+              <li>Hỏi kế toán: thuê sinh viên theo giờ thì ký giấy gì, trả ngày lễ bao nhiêu.<span class="tag t-hoi">HỎI</span></li>
+            </ul>
+          </li>
+          <li>Khám sức khỏe, tập huấn ATTP cho người tiếp xúc thực phẩm, có cần cho cả sinh viên không?<span class="tag t-hoi">HỎI</span></li>
+          <li>Người giao dùng xe riêng: có phụ cấp xăng không?<span class="tag t-chot">CHỐT</span></li>
+          <li>Luôn có 1-2 người dự phòng trong danh sách.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="branch base" id="c4">
+      <div class="binner">
+        <div class="bnode">
+          <span class="dot" aria-hidden="true"></span>
+          <div class="bt"><h3>Vệ sinh và ATTP</h3><p class="when">Sau mỗi ca<span class="cnt"></span></p></div>
+          <button class="tog" type="button" aria-expanded="true" aria-controls="m4" aria-label="Thu gọn nhánh"><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M3 5l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+        <ul class="leaves" id="m4">
+          <li>Phải có giấy ATTP trước khi bán. Không có giấy bị phạt 20-30 triệu.<span class="tag t-xm">XM</span></li>
+          <li>Dọn sau ca: máy, sàn, bồn rửa, bẫy mỡ. Đổ rác mỗi ngày.</li>
+          <li>Đồ bảo hộ: mũ trùm tóc, tạp dề, găng tay, khẩu trang.</li>
+          <li>3 cuốn sổ: kiểm thực 3 bước, lưu mẫu, nhiệt độ tủ.<span class="tag t-xm">XM</span></li>
+          <li>Diệt côn trùng định kỳ.</li>
+          <li>Hỏi Sở ATTP TP.HCM: thủ tục, thời gian cấp giấy, sổ nào bắt buộc.<span class="tag t-hoi">HỎI</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="branch base" id="c5">
+      <div class="binner">
+        <div class="bnode">
+          <span class="dot" aria-hidden="true"></span>
+          <div class="bt"><h3>Tiền và sổ sách</h3><p class="when">Đối soát mỗi chiều<span class="cnt"></span></p></div>
+          <button class="tog" type="button" aria-expanded="true" aria-controls="m5" aria-label="Thu gọn nhánh"><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M3 5l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+        <ul class="leaves" id="m5">
+          <li>Đối soát SePay mỗi chiều, ngay sau giờ chốt đơn.</li>
+          <li>Bảng gói: mỗi khách đã mua, đã ăn, còn lại bao nhiêu suất.</li>
+          <li>Tiền gói trả trước là tiền nợ khách cho tới khi giao xong. Không dùng để mua máy.</li>
+          <li>Ghi sổ thu chi từ ngày đầu tiên.</li>
+          <li>Thuế khoán 4,5% doanh thu.<span class="tag t-xm">XM</span>
+            <ul class="sub">
+              <li>Từ 1 tỷ/năm (khoảng 57 suất/ngày): hóa đơn điện tử từ máy tính tiền.</li>
+              <li>Từ 3 tỷ/năm (khoảng 170 suất/ngày): tính thuế theo thu nhập, cần sổ chi phí đầy đủ.</li>
+            </ul>
+          </li>
+          <li>Xem mỗi tuần: suất/ngày, giá vốn/suất, hao hụt, tỷ lệ gia hạn, khiếu nại, chi phí quảng cáo cho mỗi khách mới.</li>
+          <li>Mục tiêu lãi ròng 50%.<span class="tag t-new">Chốt 26/11</span></li>
+          <li class="risk">Với số hiện tại, lãi ròng khi đã ổn định 200 suất chỉ khoảng 42% (đã trừ part-time, chưa trừ lương 2 chủ). Ở 100 suất khoảng 36%.<span class="tag t-ut">ƯT</span><span class="tag t-risk">Rủi ro</span></li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <section class="blk" id="mot-ngay">
+    <h2>Một ngày của bếp</h2>
+    <p class="intro">Lịch đề xuất nếu chọn mối chở hàng tới bếp lúc 5:00. Đêm ở giữa được cắt bớt. Giờ nào cũng là ước tính, cần đo khi nấu thử.</p>
+    <figure>
+      <div class="tl-scroll">
+        <svg viewBox="0 0 1090 350" role="img" aria-label="Lịch một ngày theo 5 làn: chủ 1, chủ 2, sinh viên, mối hàng, khách. Hộp đóng xong 9:15 nhưng khách ăn 11:30 đến 12:30, vượt mốc 2 giờ.">
+          <!-- tiêu đề 2 đoạn -->
+          <text class="tl-seg" x="135" y="16">CHIỀU HÔM TRƯỚC</text>
+          <text class="tl-seg" x="515" y="16">NGÀY BÁN</text>
+          <!-- vạch giờ -->
+          <g>
+            <line class="tl-grid" x1="135" y1="46" x2="135" y2="288"/>
+            <line class="tl-grid" x1="205" y1="46" x2="205" y2="288"/>
+            <line class="tl-grid" x1="275" y1="46" x2="275" y2="288"/>
+            <line class="tl-grid" x1="345" y1="46" x2="345" y2="288"/>
+            <line class="tl-grid" x1="415" y1="46" x2="415" y2="288"/>
+            <line class="tl-grid" x1="485" y1="46" x2="485" y2="288"/>
+            <line class="tl-grid" x1="550" y1="46" x2="550" y2="288"/>
+            <line class="tl-grid" x1="620" y1="46" x2="620" y2="288"/>
+            <line class="tl-grid" x1="690" y1="46" x2="690" y2="288"/>
+            <line class="tl-grid" x1="760" y1="46" x2="760" y2="288"/>
+            <line class="tl-grid" x1="830" y1="46" x2="830" y2="288"/>
+            <line class="tl-grid" x1="900" y1="46" x2="900" y2="288"/>
+            <line class="tl-grid" x1="970" y1="46" x2="970" y2="288"/>
+            <line class="tl-grid" x1="1040" y1="46" x2="1040" y2="288"/>
+          </g>
+          <g text-anchor="middle">
+            <text class="tl-tick" x="135" y="38">13:00</text>
+            <text class="tl-tick" x="205" y="38">14:00</text>
+            <text class="tl-tick" x="275" y="38">15:00</text>
+            <text class="tl-tick" x="345" y="38">16:00</text>
+            <text class="tl-tick" x="415" y="38">17:00</text>
+            <text class="tl-tick" x="550" y="38">5:00</text>
+            <text class="tl-tick" x="620" y="38">6:00</text>
+            <text class="tl-tick" x="690" y="38">7:00</text>
+            <text class="tl-tick" x="760" y="38">8:00</text>
+            <text class="tl-tick" x="830" y="38">9:00</text>
+            <text class="tl-tick" x="900" y="38">10:00</text>
+            <text class="tl-tick" x="970" y="38">11:00</text>
+            <text class="tl-tick" x="1040" y="38">12:00</text>
+          </g>
+          <!-- khoảng đêm -->
+          <rect class="tl-gap" x="488" y="46" width="24" height="242" rx="4"/>
+          <text class="tl-gapt" x="500" y="167" text-anchor="middle" transform="rotate(-90 500 167)">ĐÊM</text>
+          <!-- tên làn -->
+          <text class="tl-lane" x="0" y="78">Chủ 1</text><text class="tl-sub" x="0" y="92">bếp</text>
+          <text class="tl-lane" x="0" y="126">Chủ 2</text><text class="tl-sub" x="0" y="140">đơn, tiền, bếp</text>
+          <text class="tl-lane" x="0" y="174">Sinh viên</text><text class="tl-sub" x="0" y="188">part-time</text>
+          <text class="tl-lane" x="0" y="222">Mối hàng</text><text class="tl-sub" x="0" y="236">Bình Điền</text>
+          <text class="tl-lane" x="0" y="270">Khách</text><text class="tl-sub" x="0" y="284">văn phòng</text>
+          <!-- Chủ 1 -->
+          <rect class="blk-r b-cook" x="135" y="59" width="70" height="30" rx="6"/><text class="tl-bt" x="170" y="78.5">Dọn bếp</text>
+          <rect class="blk-r b-cook" x="275" y="59" width="175" height="30" rx="6"/><text class="tl-bt" x="362.5" y="78.5">Sơ chế củ, nấu sốt</text>
+          <rect class="blk-r b-cook" x="550" y="59" width="70" height="30" rx="6"/><text class="tl-bt" x="585" y="78.5">Nhận hàng</text>
+          <rect class="blk-r b-cook" x="622" y="59" width="154" height="30" rx="6"/><text class="tl-bt" x="699" y="78.5">Nấu cơm, món mặn</text>
+          <rect class="blk-r b-cook" x="778" y="59" width="87" height="30" rx="6"/><text class="tl-bt" x="821.5" y="78.5">Đóng hộp</text>
+          <!-- Chủ 2 -->
+          <rect class="blk-r b-office" x="135" y="107" width="70" height="30" rx="6"/><text class="tl-bt" x="170" y="126.5">Nhận đơn</text>
+          <rect class="blk-r b-office" x="207" y="107" width="103" height="30" rx="6"/><text class="tl-bt" x="258.5" y="126.5">Đặt hàng mối</text>
+          <rect class="blk-r b-cook" x="312" y="107" width="138" height="30" rx="6"/><text class="tl-bt" x="381" y="126.5">Sơ chế cùng</text>
+          <rect class="blk-r b-cook" x="550" y="107" width="70" height="30" rx="6"/><text class="tl-bt" x="585" y="126.5">Ướp đạm</text>
+          <rect class="blk-r b-cook" x="622" y="107" width="154" height="30" rx="6"/><text class="tl-bt" x="699" y="126.5">Nấu rau, món xào</text>
+          <rect class="blk-r b-cook" x="778" y="107" width="87" height="30" rx="6"/><text class="tl-bt" x="821.5" y="126.5">Đóng hộp</text>
+          <rect class="blk-r b-office" x="867" y="107" width="138" height="30" rx="6"/><text class="tl-bt" x="936" y="126.5">Trực Zalo, sự cố</text>
+          <!-- Sinh viên -->
+          <rect class="blk-r b-cook dashed" x="312" y="155" width="138" height="30" rx="6"/><text class="tl-bt" x="381" y="174.5">Sơ chế (200 suất)</text>
+          <rect class="blk-r b-cook dashed" x="778" y="155" width="69" height="30" rx="6"/><text class="tl-bt" x="812.5" y="174.5">Đóng hộp</text>
+          <rect class="blk-r b-ship" x="849" y="155" width="173" height="30" rx="6"/><text class="tl-bt" x="935.5" y="174.5">Giao 9:30-11:30</text>
+          <!-- Mối hàng -->
+          <path class="dia" d="M310 212 l7 7 l-7 7 l-7 -7 z"/>
+          <text class="tl-sub" x="322" y="223">nhận đơn đặt hàng</text>
+          <rect class="blk-r b-supply" x="515" y="203" width="70" height="30" rx="6"/><text class="tl-bt" x="550" y="222.5">Chở tới bếp</text>
+          <!-- Khách -->
+          <rect class="blk-r b-cust" x="135" y="251" width="70" height="30" rx="6"/><text class="tl-bt" x="170" y="270.5">Báo nghỉ</text>
+          <rect class="blk-r b-cust" x="1005" y="251" width="70" height="30" rx="6"/><text class="tl-bt" x="1040" y="270.5">Ăn trưa</text>
+          <!-- mốc 14:00 -->
+          <line class="mk-chot" x1="205" y1="46" x2="205" y2="300"/>
+          <text class="tx-chot" x="211" y="314">14:00 chốt đơn ngày mai</text>
+          <!-- mốc 9:15 và cửa sổ 2 giờ -->
+          <line class="mk-pack" x1="847.5" y1="46" x2="847.5" y2="300"/>
+          <text class="tx-pack" x="841" y="314" text-anchor="end">9:15 đóng hộp xong</text>
+          <path class="br-ok" d="M847.5 326 v-6 M847.5 323 H985.5 M985.5 326 v-6"/>
+          <text class="tx-ok" x="916.5" y="342">2 giờ an toàn</text>
+          <path class="br-bad" d="M989.5 323 H1075 M1075 326 v-6"/>
+          <text class="tx-bad" x="1032" y="342">quá 2 giờ</text>
+        </svg>
+      </div>
+      <ul class="tl-legend" aria-label="Chú thích lịch">
+        <li><span class="sw cook"></span>Bếp</li>
+        <li><span class="sw office"></span>Đơn, tiền, khách</li>
+        <li><span class="sw ship"></span>Giao hàng</li>
+        <li><span class="sw supply"></span>Mối hàng</li>
+        <li><span class="sw cust"></span>Khách</li>
+        <li><span class="sw dash"></span>Chỉ thêm khi đủ suất (đóng hộp từ 100, sơ chế từ 200)</li>
+      </ul>
+      <figcaption>Hai chủ làm khoảng 9 giờ/ngày, chia 2 buổi. Chỗ căng nhất là vạch đỏ: hộp đóng xong 9:15 nhưng khách ăn 11:30-12:30, tức 2 giờ 15 phút tới 3 giờ 15 phút. Nếu hộp không giữ được trên 60°C thì vượt mốc 2 giờ của WHO.</figcaption>
+    </figure>
+  </section>
+
+  <section class="blk" id="nguoi">
+    <h2>Cần bao nhiêu người</h2>
+    <p class="intro">Ở mọi mức, 2 chủ vẫn nấu chính. Sinh viên chỉ thêm vào khâu giao, đóng hộp và sơ chế. Đây là ước tính theo lịch ở trên.</p>
+    <div class="tbl">
+      <table>
+        <thead>
+          <tr><th>Suất/ngày</th><th>Sinh viên cần thêm</th><th class="r">Giờ part-time/ngày</th><th class="r">Tiền công/tháng</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><b>50</b></td><td>1 người giao</td><td class="r">2,5</td><td class="r">1,4-1,7 triệu</td></tr>
+          <tr><td><b>100</b></td><td>1 người đóng hộp, 2 người giao</td><td class="r">6,5</td><td class="r">3,6-4,3 triệu</td></tr>
+          <tr><td><b>200</b></td><td>2 người sơ chế, 2 người đóng hộp, 4 người giao</td><td class="r">17</td><td class="r">9,4-11,2 triệu</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Tính 22 ngày/tháng, 25-30k/giờ. Chưa gồm phụ cấp xăng và lương ngày lễ. Ở 200 suất, 4 người giao đi được khoảng 24 điểm, nên mỗi điểm cần gom khoảng 8 suất.</p>
+    <div class="callout">
+      <h3>Máy hay người?</h3>
+      <p>Với lương 25-30k/giờ, nhiều máy hoàn vốn chậm. Ví dụ máy dán miệng hộp 26 triệu: nếu bớt được 1 người đóng hộp 1,5 giờ/ngày (khoảng 0,8-1 triệu/tháng) thì mất 26-32 tháng mới hoàn vốn. Nên ưu tiên máy giúp kịp giờ, như nấu nhanh hơn hoặc giữ nóng tốt hơn, hơn là máy chỉ để bớt người.</p>
+    </div>
+  </section>
+
+  <section class="blk" id="can-chot">
+    <h2>Việc cần bạn chốt</h2>
+    <p class="intro">Xếp theo mức ảnh hưởng tới quy trình. Ba việc đầu nên chốt trước khi ký thuê mặt bằng.</p>
+    <ol class="todo">
+      <li><b>Cách mua hàng.</b><p>Đi chợ buổi chiều như lịch cũ không khớp giờ chợ Bình Điền. Đề xuất: tìm mối chở hàng tới bếp lúc 5:00.</p></li>
+      <li><b>Mốc 2 giờ khi giao.</b><p>Giữ khung 9:30-11:30, nấu 2 đợt theo tuyến, hay lùi giờ giao? Nên đo nhiệt độ hộp khi bán thử rồi quyết.</p></li>
+      <li><b>Lương ngày lễ.</b><p>Mức x2 có thể thấp hơn mức 300% của luật. Hỏi kế toán trước khi thuê sinh viên.</p></li>
+      <li><b>Ngày lễ khi văn phòng nghỉ.</b><p>Giao về nhà, cộng dồn suất, hay nghỉ ngày đó?</p></li>
+      <li><b>Chi tiết hoàn tiền 7 ngày.</b><p>Tính từ ngày nào, hoàn suất lỗi hay cả gói, thế nào là lỗi chất lượng.</p></li>
+      <li><b>Giờ chốt đơn hằng ngày.</b><p>Đề xuất 14:00 hôm trước. Khách báo nghỉ sau giờ chốt thì tính thế nào.</p></li>
+      <li><b>Tết.</b><p>Nghỉ mấy ngày, gói tháng trừ ngày nghỉ hay cộng dồn.</p></li>
+      <li><b>Lãi ròng 50%.</b><p>Số hiện tại chỉ khoảng 42% ở 200 suất. Hạ mục tiêu, hay đổi giá, giá nguyên liệu, mức quảng cáo.</p></li>
+      <li><b>Việc nhỏ còn lại.</b><p>Hộp nắp gài hay dán màng. Có canh, món nguội, món bò không. Phụ cấp xăng cho người giao.</p></li>
+    </ol>
+  </section>
+
+  <section class="blk" id="nguon">
+    <h2>Nguồn</h2>
+    <ol class="src">
+      <li>WHO, Five keys to safer food (nấu tới 70°C, giữ nóng trên 60°C, không để quá 2 giờ): <a href="https://www.who.int/publications/i/item/9789241594639" target="_blank" rel="noopener">who.int</a></li>
+      <li>QĐ 1246/QĐ-BYT, kiểm thực 3 bước và lưu mẫu thức ăn: <a href="https://luatduonggia.vn/van-ban/quyet-dinh-1246-qd-byt-107006/" target="_blank" rel="noopener">luatduonggia.vn</a></li>
+      <li>Phạt khi không có giấy ATTP: <a href="https://atvstp.org.vn/thu-tuc-cap-giay-phep-an-toan-ve-sinh-thuc-pham" target="_blank" rel="noopener">atvstp.org.vn</a></li>
+      <li>Giờ họp chợ Bình Điền: <a href="https://mia.vn/cam-nang-du-lich/kham-pha-cho-dau-moi-binh-dien-13997" target="_blank" rel="noopener">mia.vn</a>, <a href="https://nhandan.vn/ocop/cho-binh-dien-mo-rong-khong-gian-kinh-te-dem-cung-thanh-pho-ho-chi-minh-post955569.html" target="_blank" rel="noopener">nhandan.vn</a></li>
+      <li>Lương làm thêm ngày lễ 300%, áp dụng cho part-time: <a href="https://thuvienphapluat.vn/lao-dong-tien-luong/luong-lam-them-gio-cho-lao-dong-part-time-duoc-tinh-the-nao-59189.html" target="_blank" rel="noopener">thuvienphapluat.vn</a>, <a href="https://www.careerlink.vn/cam-nang-viec-lam/luat-lao-dong/lam-viec-ngay-le-tet-luong-tinh-the-nao" target="_blank" rel="noopener">careerlink.vn</a></li>
+      <li>Ngày lễ năm 2026: <a href="https://tuoitre.vn/chi-tiet-so-ngay-nghi-trong-cac-dip-le-nam-2026-20251231230420433.htm" target="_blank" rel="noopener">tuoitre.vn</a>. Ngày 24/11: <a href="https://tienphong.vn/nam-2026-co-26-ngay-nghi-le-post1812567.html" target="_blank" rel="noopener">tienphong.vn</a></li>
+      <li>SePay, giới hạn gói miễn phí: <a href="https://sepay.vn/bang-gia.html" target="_blank" rel="noopener">sepay.vn</a>. Giá tin ZNS: <a href="https://v9.com.vn/bang-bao-gia-zalo-zns/" target="_blank" rel="noopener">v9.com.vn</a></li>
+      <li>Thuế 4,5% và các mốc 1 tỷ, 3 tỷ: xem <code>docs/tom-tat-du-an.md</code> mục 4.</li>
+      <li>Số tiền, số suất, lãi ròng: tính từ <code>docs/ke-hoach-tai-chinh.xlsx</code>, cộng tiền công part-time ở bảng trên.</li>
+    </ol>
+  </section>
+
+  <p class="foot">File gốc: <code>docs/so-do-van-hanh.html</code>. Đi kèm <code>ke-hoach-kinh-doanh.md</code> và <code>ke-hoach-tai-chinh.xlsx</code>.</p>
+</div>
+
+<script>
+(function(){
+  var branches = Array.prototype.slice.call(document.querySelectorAll('.branch'));
+  var items = Array.prototype.slice.call(document.querySelectorAll('.leaves > li'));
+  function leavesOf(b){ return Array.prototype.slice.call(b.querySelectorAll('.leaves > li')); }
+  branches.forEach(function(b){
+    var n = leavesOf(b).length;
+    var c = b.querySelector('.cnt');
+    if (c) c.textContent = ' · ' + n + ' ý';
+  });
+  function setOpen(b, open){
+    b.classList.toggle('collapsed', !open);
+    var ul = b.querySelector('.leaves');
+    if (ul) ul.hidden = !open;
+    var btn = b.querySelector('.tog');
+    if (btn){
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      btn.setAttribute('aria-label', open ? 'Thu gọn nhánh' : 'Mở nhánh');
+    }
+  }
+  branches.forEach(function(b){
+    var btn = b.querySelector('.tog');
+    if (btn) btn.addEventListener('click', function(){ setOpen(b, b.classList.contains('collapsed')); });
+  });
+  document.getElementById('openAll').addEventListener('click', function(){ branches.forEach(function(b){ setOpen(b, true); }); });
+  document.getElementById('closeAll').addEventListener('click', function(){ branches.forEach(function(b){ setOpen(b, false); }); });
+
+  var tests = {
+    all: function(){ return true; },
+    chot: function(li){ return !!li.querySelector('.t-chot, .t-hoi'); },
+    risk: function(li){ return li.classList.contains('risk'); },
+    ut: function(li){ return !!li.querySelector('.t-ut'); },
+    moi: function(li){ return !!li.querySelector('.t-new'); }
+  };
+  var fbtns = Array.prototype.slice.call(document.querySelectorAll('[data-f]'));
+  fbtns.forEach(function(btn){
+    var f = btn.getAttribute('data-f');
+    var n = btn.querySelector('.n');
+    if (n) n.textContent = items.filter(tests[f]).length;
+    btn.addEventListener('click', function(){ apply(f); });
+  });
+  function apply(f){
+    fbtns.forEach(function(x){ x.setAttribute('aria-pressed', x.getAttribute('data-f') === f ? 'true' : 'false'); });
+    items.forEach(function(li){ li.classList.toggle('dim', f !== 'all' && !tests[f](li)); });
+    branches.forEach(function(b){
+      var any = leavesOf(b).some(function(li){ return tests[f](li); });
+      b.classList.toggle('dim-b', f !== 'all' && !any);
+      if (f !== 'all') setOpen(b, true);
+    });
+  }
+})();
+</script>

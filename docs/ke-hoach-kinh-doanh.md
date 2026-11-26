@@ -233,13 +233,18 @@ Việc cần làm:
 
 ## 5. Việc cần chủ dự án chốt
 
+Cập nhật 26/11/2026.
+
+
 1. ~~Giá thuê mặt bằng~~: 8-10 triệu/tháng. Số tháng cọc chưa có.
 2. ~~Ngân sách tối đa vốn ban đầu~~: 200 triệu.
 3. ~~Khu giao hàng và cách giao~~: toàn TP.HCM, 9:30-11:30, 1 shipper. **Nên xem lại** (mục 6).
 4. ~~Ngân sách quảng cáo~~: 30% doanh thu của số suất mục tiêu. Đủ đơn thì dừng.
-5. Chính sách hoàn tiền, nghỉ lễ của gói.
-6. Mức lương dự kiến (khi muốn tính hòa vốn đầy đủ).
-7. Tỷ lệ khách gói tháng / gói tuần (bảng tính đang để 50/50).
+5. ~~Chính sách hoàn tiền, nghỉ lễ của gói~~: hoàn tiền trong 7 ngày nếu khách khiếu nại về chất lượng. Ngày lễ vẫn bán, trừ Tết. Ngày lễ trả lương nhân viên x2. Còn vài chỗ cần làm rõ (mục 7).
+6. ~~Mức lương dự kiến~~: sinh viên part-time 25-30k/giờ, không có full time. Ưu tiên máy trước người.
+7. ~~Tỷ lệ khách gói tháng / gói tuần~~: 50/50.
+8. ~~Mục tiêu lãi 50%~~: tính theo **lãi ròng**.
+9. ~~Gạo~~: gạo lứt.
 
 ## 6. Kết quả bảng tính (11/10/2026, ƯỚC TÍNH)
 
@@ -276,3 +281,22 @@ Chi tiết và công thức: [ke-hoach-tai-chinh.xlsx](ke-hoach-tai-chinh.xlsx).
   - Ưu tiên khách theo nhóm hoặc theo tòa nhà, giao 1 điểm nhiều suất.
   - Đo nhiệt độ hộp lúc giao và lúc khách ăn khi Soft open.
   - Từ 100 suất trở lên: thêm shipper hoặc thuê ship ngoài cho đơn lẻ.
+
+## 7. Sơ đồ vận hành (26/11/2026)
+
+Sơ đồ tư duy đầy đủ: [so-do-van-hanh.html](so-do-van-hanh.html). Gồm 7 khâu lặp lại mỗi ngày, 5 phần nền tảng, lịch một ngày, số người cần thêm theo mức suất.
+
+**Phát hiện mới khi vẽ quy trình:**
+
+- **Giờ chợ Bình Điền không khớp lịch cũ [XM, nguồn chưa thống nhất].** Chợ họp chủ yếu từ tối tới rạng sáng: rau và gia cầm từ 22:00, heo bò từ 0:00 ([mia.vn](https://mia.vn/cam-nang-du-lich/kham-pha-cho-dau-moi-binh-dien-13997), [nhandan.vn](https://nhandan.vn/ocop/cho-binh-dien-mo-rong-khong-gian-kinh-te-dem-cung-thanh-pho-ho-chi-minh-post955569.html)). Đi chợ lúc 15:30 sẽ không mua được. Đề xuất: tìm mối chở hàng tới bếp lúc 4:30-5:30 sáng [CHỐT].
+- **Lương ngày lễ x2 có thể thấp hơn luật [XM].** Bộ luật Lao động 2019 Điều 98: làm ngày lễ ít nhất 300%, áp dụng cả part-time ([thuvienphapluat.vn](https://thuvienphapluat.vn/lao-dong-tien-luong/luong-lam-them-gio-cho-lao-dong-part-time-duoc-tinh-the-nao-59189.html)). Cần hỏi kế toán [HỎI].
+- **Ngày lễ văn phòng đóng cửa.** Khách không có ở tòa nhà để nhận hộp. Cần chọn: giao về nhà, cộng dồn suất, hay nghỉ ngày đó [CHỐT]. Ngày lễ ngoài Tết khoảng 6 ngày/năm. Có nguồn ghi thêm ngày 24/11 từ 2026 ([tienphong.vn](https://tienphong.vn/nam-2026-co-26-ngay-nghi-le-post1812567.html)) [HỎI].
+- **Mốc 2 giờ.** Hộp đóng xong khoảng 9:15, khách ăn 11:30-12:30. WHO khuyên không để thức ăn chín ở nhiệt độ thường quá 2 giờ, trừ khi giữ trên 60°C [XM]. Cần đo nhiệt độ hộp khi bán thử.
+- **Lãi ròng 50% chưa đạt với số hiện tại [ƯT].** Khi ổn định ở 200 suất: khoảng 42% (đã trừ tiền công part-time 9,4-11,2 triệu/tháng và khấu hao, chưa trừ lương 2 chủ). Ở 100 suất: khoảng 36%.
+- **Máy hay người.** Với lương 25-30k/giờ, máy chỉ để bớt người hoàn vốn chậm. Ví dụ máy dán miệng hộp 26 triệu thay 1,5 giờ đóng hộp/ngày: 26-32 tháng mới hoàn vốn [ƯT].
+
+**Hoàn tiền 7 ngày, cần làm rõ [CHỐT]:**
+- 7 ngày tính từ ngày ăn, hay là hạn bếp phải trả tiền?
+- Hoàn suất bị lỗi, hay cả phần còn lại của gói?
+- Thế nào là lỗi chất lượng?
+- Mẫu lưu chỉ giữ 24 giờ. Khiếu nại sau đó chỉ còn ảnh của khách để đối chiếu.

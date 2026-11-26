@@ -175,11 +175,11 @@ Còn 8 điểm cần chủ dự án quyết trước khi tính lại lãi lỗ v
 - [ ] Mặt bằng có điện 3 pha không? Đồng hồ điện công suất bao nhiêu?
 - [ ] Có được dùng gas công nghiệp không?
 - [ ] Ngân sách tối đa cho máy móc là bao nhiêu?
-- [ ] Thực đơn cụ thể: tỷ lệ món bò, gạo lứt hay gạo trắng, mỗi hộp mấy món?
+- [ ] Thực đơn cụ thể: tỷ lệ món bò, mỗi hộp mấy món? (Đã chốt gạo lứt, 26/11.)
 - [ ] Khách mục tiêu ở khu vực nào, tòa nhà nào?
 - [ ] Chọn cách nào để giải nút thắt giao hàng?
 - [ ] Dùng hộp nắp gài hay hộp dán màng?
-- [ ] "Lãi tối thiểu 50%" tính theo biên lãi gộp hay lãi ròng?
+- [x] "Lãi tối thiểu 50%" tính theo lãi ròng (chốt 26/11). Xem ước tính ở ke-hoach-kinh-doanh.md mục 7.
 
 ## 7. Bước tiếp theo
 

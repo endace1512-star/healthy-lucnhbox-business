@@ -66,7 +66,7 @@ Mỗi hộp: cơm + 1 món mặn + 1 món rau. Chưa có canh vì khó giao nón
 ## 5. Câu hỏi cần chủ dự án chốt
 
 - [x] Giá tính theo suất: 65k (gói tháng), 70k (gói tuần).
-- [ ] Gạo lứt 100%, trộn gạo trắng, hay cho khách chọn?
+- [x] Gạo lứt (chốt 26/11/2026).
 - [ ] Có thêm canh không? Nếu có, cần hộp canh riêng có nắp kín.
 - [ ] Có món nguội (gà xé trộn) trong hộp giao nóng được không?
 - [ ] Mỗi tuần có cần 1 món bò không? Nguyên liệu sẽ tăng.
