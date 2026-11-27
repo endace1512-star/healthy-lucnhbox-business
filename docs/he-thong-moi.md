@@ -4,101 +4,157 @@ Bắt đầu ngày 27/11/2026. Tài liệu này thay cho các file cũ trong `do
 
 Ký hiệu: **[XM]** đã xác minh có nguồn. **[ƯT]** ước tính. **[CHỐT]** chủ dự án cần quyết. **[HỎI]** cần hỏi cơ quan, chủ nhà, nhà cung cấp.
 
-## 0. Đã chốt (27/11/2026)
+## 0. Đã chốt
 
-| Mục | Quyết định |
-| --- | --- |
-| Người | 2 người, full time. Partner nấu chính. Chưa ai từng làm F&B |
-| Vốn | 250 triệu, dùng hết. Cam kết chạy ít nhất 6 tháng. Mục tiêu trước mắt: hồi vốn |
-| Mở bán | Tháng 3/2027. Còn 4 tháng chuẩn bị |
-| Vị trí bếp | Quanh Lotte Mart Q.7, bán kính 5km, thuê dưới 10 triệu/tháng. Gần nhà, thuận đường tới khu khách |
-| Khu giao | Q.1, Q.4, Q.7, khu Trung Sơn (Bình Chánh) |
-| Khách | Mọi người, tập trung vào phụ nữ |
-| Kênh bán | Facebook, Instagram. Không bán qua app. Web: cân nhắc sau nếu rẻ và tiện |
-| Giá | 60.000đ/suất, miễn phí giao |
-| Bữa | Chỉ bữa trưa. Thứ 2 đến thứ 6, không bán thứ 7, Chủ nhật |
-| Hộp cơm | 4 phần: đạm, tinh bột, rau, củ. Có sốt |
-| Tinh bột | Chỉ gạo lứt |
-| "Healthy" | Ít dầu mỡ, chủ yếu đồ luộc. Có ghi calo trên hộp |
-| Không có | Trái cây. Món chay chưa cần |
-| Bán thêm sau | Canh rong biển (bàn sau) |
-| Đặt món | Menu theo tuần. Khách chọn món, gửi lại để đặt trước |
-| Công thức | Partner có sẵn |
-| Giao | Tự giao. Bắt đầu 9:30-10:00, sau khi đóng hộp xong |
-| Máy móc | Ngân sách 60 triệu, có thể điều chỉnh sau khi chốt danh sách |
-| Thương hiệu, trang bán | Làm sau khi xong quy trình |
+| Mục | Quyết định | Ngày |
+| --- | --- | --- |
+| Người | 2 người, full time. Partner nấu chính. Chưa ai từng làm F&B. Partner chưa từng nấu một lần 20-50 suất | 27/11 |
+| Vốn | 250 triệu, dùng hết. Cam kết chạy ít nhất 6 tháng. Mục tiêu trước mắt: hồi vốn | 27/11 |
+| Giai đoạn | Pre-open (chuẩn bị), Soft-open (2 tuần chạy thử để lấy số thật), Grand-open | 27/11 |
+| Mở bán | Tháng 3/2027 | 27/11 |
+| Mục tiêu | 200 suất/ngày vào tháng thứ 3 sau khi mở | 27/11 |
+| Vị trí bếp | Quanh Lotte Mart Q.7, bán kính 5km, thuê dưới 10 triệu/tháng | 27/11 |
+| Khu giao | Q.1, Q.4, Q.7, khu Trung Sơn (Bình Chánh) | 27/11 |
+| Khách | Mọi người, tập trung vào phụ nữ. Khách văn phòng ăn trưa từ 12:00 | 27/11 |
+| Kênh bán | Facebook, Instagram. Không bán qua app. Web: cân nhắc sau | 27/11 |
+| Giá | Gói tháng 60.000đ/suất, gói tuần 65.000đ/suất. Miễn phí giao | 27/11 |
+| Bữa | Chỉ bữa trưa. Thứ 2 đến thứ 6 | 27/11 |
+| Hộp cơm | 4 phần: đạm, gạo lứt, rau, củ. Có sốt | 27/11 |
+| Lựa chọn | 2 lựa chọn mỗi ngày | 27/11 |
+| Cách nấu | Ít dầu mỡ. Luộc và hấp là chính | 27/11 |
+| Calo | Ghi trên menu. Tính sau khi chốt món và cách nấu | 27/11 |
+| Không có | Trái cây. Món chay chưa cần | 27/11 |
+| Bán thêm sau | Canh rong biển | 27/11 |
+| Đặt món | Menu theo tuần. Khách gửi lựa chọn cho tuần sau trong ngày thứ 4. Từ thứ 5 không nhận | 27/11 |
+| Công thức | Partner có sẵn | 27/11 |
+| Giao | Khách nhận hộp trong khung 11:00-12:00. Chỉ chủ dự án đi giao. Dưới khoảng 50 suất tự giao, nhiều hơn thì thuê shipper (dự tính 1 shipper cho mỗi 100 suất, chốt lại sau Soft-open) | 27/11 |
+| Khi đi giao | Partner dọn bếp, tổng hợp thừa thiếu | 27/11 |
+| Hộp | Bã mía hoặc nhựa | 27/11 |
+| Máy móc | Ngân sách 60 triệu, có thể điều chỉnh | 27/11 |
+| Thương hiệu, trang bán | Làm sau khi xong quy trình | 27/11 |
 
-Thay cho số cũ: giá 65k/70k, lộ trình 50 → 100 → 200 suất, giao 9:30-11:30.
+## 1. Cơ sở vật chất (đề xuất lần 2, chờ chốt)
 
-## 1. Cơ sở vật chất (đề xuất, chờ chốt)
+Cỡ máy tính cho mục tiêu 200 suất. Máy lớn mua theo giai đoạn.
 
-Danh sách cho giai đoạn đầu, đến khoảng 60 suất/ngày [ƯT, chờ chốt số suất mục tiêu]. Chọn theo menu luộc, hấp, gạo lứt, có sốt.
+### Khối lượng hấp mỗi sáng [ƯT]
+
+| Phần | Mỗi suất (sống) | 50 suất | 200 suất |
+| --- | --- | --- | --- |
+| Gạo lứt | khoảng 80g | 4kg, khoảng 2 khay | 16kg, khoảng 6-7 khay |
+| Đạm | khoảng 110g | 5,5kg, khoảng 2 khay | 22kg, khoảng 6-7 khay |
+| Củ | khoảng 80g | 4kg, khoảng 1-2 khay | 16kg, khoảng 4-5 khay |
+| Rau xanh | khoảng 80g | Chần trong nồi | Chần trong nồi |
+| Tổng khay hấp | | khoảng 5-6 khay | khoảng 17-19 khay |
+
+### Máy nấu theo giai đoạn
+
+| Thiết bị | Mua khi | Ghi chú |
+| --- | --- | --- |
+| Tủ hấp/tủ cơm 12 khay | Pre-open | Đủ cho Soft-open. Hấp đạm, củ, nấu gạo lứt |
+| Tủ cơm 8 khay | Khi vượt khoảng 80-100 suất | Tách riêng nấu gạo lứt. Có thêm máy dự phòng khi 1 tủ hỏng |
+| Bếp gas công nghiệp 2 họng | Pre-open | 1 họng chần rau xanh sát giờ đóng hộp, 1 họng nấu sốt |
+| Nồi chần 30-40 lít, nồi sốt 10-15 lít, khay inox có lỗ | Pre-open | |
+
+Rau lá xanh hấp lâu sẽ ngả màu. Nên chần nhanh trong nồi ngay trước khi đóng hộp. Củ thì hấp trong tủ.
 
 ### Bảo quản
-1. Tủ đông mát 2 ngăn: ngăn mát cho thịt cá sống và đồ đã ướp, ngăn đông để dự trữ.
-2. Tủ mát đứng 1 cánh: rau củ, sốt đã nấu.
-3. Tủ mát mini riêng để lưu mẫu thức ăn (bắt buộc).
-4. Kệ inox đồ khô, thùng gạo có nắp.
 
-### Sơ chế
-5. Bồn rửa inox 2 hộc: 1 hộc rau củ, 1 hộc thịt cá.
-6. Chỗ rửa tay riêng [HỎI: điều kiện ATTP thường yêu cầu].
-7. Bàn inox sơ chế.
-8. Máy thái củ quả, vì ngày nào cũng có phần củ.
-9. Thớt, dao theo màu: đồ sống, đồ chín, rau.
-10. Cân 30kg để nhận hàng.
+| Thiết bị | Mua khi |
+| --- | --- |
+| Tủ đông mát 2 ngăn (thịt cá sống, đồ ướp) | Pre-open |
+| Tủ mát đứng (rau củ, sốt đã nấu) | Pre-open |
+| Tủ mát mini riêng để lưu mẫu (bắt buộc) | Pre-open |
+| Tủ mát thứ hai | Khi vượt khoảng 100 suất |
+| Kệ inox đồ khô, thùng gạo có nắp | Pre-open |
 
-### Nấu (luộc, hấp)
-11. Tủ hấp/tủ cơm 6-8 khay: nấu gạo lứt, hấp đạm, hấp củ. Điện hay gas tùy điện của mặt bằng.
-12. Bếp 2 họng: 1 họng cho nồi luộc lớn, 1 họng nấu sốt.
-13. Nồi inox: 1 nồi luộc 30-40 lít, 1-2 nồi sốt 10-15 lít. Khay inox có lỗ cho tủ hấp.
-14. Nhiệt kế đầu dò để đo nhiệt độ trong món.
-15. Hút mùi và quạt thông gió. Món luộc, hấp ít khói dầu nhưng nhiều hơi nước. Thiếu thông gió thì tường, trần dễ mốc, mà tường mốc là lỗi ATTP.
-
-### Chia hộp
-16. Bàn inox dài làm dây chuyền chia hộp.
-17. Cân nhỏ 3-5kg để định lượng và kiểm calo.
-18. Muỗng, vá định lượng theo gram. Bình bóp sốt.
-19. Máy in tem nhiệt: tên khách, món, calo, giờ đóng hộp, giờ "dùng trước".
-20. Hộp 4 ngăn và cốc sốt có nắp. Loại dùng được lò vi sóng [CHỐT loại hộp].
-
-### Giữ nóng, giao
-21. Thùng giữ nhiệt gắn xe máy (1-2 cái) và túi giữ nhiệt.
-
-### An toàn, vệ sinh
-22. Bình chữa cháy, thùng rác đạp chân có nắp, bẫy mỡ, nhiệt kế tủ, đồ bảo hộ.
+### Sơ chế, chia hộp, giao, an toàn (mua ở Pre-open)
+- Bồn rửa inox 2 hộc, chỗ rửa tay riêng [HỎI: điều kiện ATTP], bàn inox sơ chế, máy thái củ quả, thớt và dao theo màu, cân 30kg.
+- Bàn inox dài 2-2,4m làm dây chuyền chia hộp, cân nhỏ 3-5kg, muỗng định lượng, bình bóp sốt, máy in tem.
+- Thùng giữ nhiệt gắn xe máy: 1 thùng cho mỗi người giao.
+- Hút mùi và quạt thông gió (hấp, chần nhiều hơi nước, dễ mốc tường), bình chữa cháy, thùng rác có nắp, bẫy mỡ, nhiệt kế tủ, nhiệt kế đầu dò, đồ bảo hộ.
 
 ### Không cần với menu này
-Lò nướng đối lưu, chảo rang tự đảo, bếp chiên phẳng, máy thái thịt, máy hút chân không, lò combi, máy rửa chén.
+Lò nướng, chảo rang tự đảo, bếp chiên phẳng, máy thái thịt, máy hút chân không, lò combi, máy rửa chén.
 
-### Nâng cấp khi vượt khoảng 60 suất/ngày
-Tủ hấp 12 khay, tủ đông thứ hai, tủ giữ nóng, thêm thùng giao.
+### Gas hay điện
+- Mặc định: tủ hấp, tủ cơm và bếp chạy **gas**. Hai tủ chạy điện cần khoảng 20kW, phải có điện 3 pha. Xin lắp 3 pha mất thời gian, mà lịch chuẩn bị có Tết ở giữa.
+- Mặt bằng có sẵn điện 3 pha: cân nhắc tủ điện, vì chạy điện rẻ hơn gas khoảng 2-3 lần tính trên nhiệt dùng được [ƯT, giá 10-11/2026].
+- Tủ lạnh, máy in, đèn, quạt dùng điện 1 pha.
 
-### Bếp điện hay gas
-Chạy bằng điện rẻ hơn gas khoảng 2-3 lần tính trên nhiệt dùng được [ƯT, giá 10-11/2026]. Nhưng máy điện lớn cần điện 3 pha. Quy tắc:
-- Mặt bằng có điện 3 pha: nấu chính bằng điện, giữ 1 bếp gas nhỏ dự phòng mất điện.
-- Chỉ có 1 pha: tủ hấp/tủ cơm chạy gas, máy nhỏ dùng điện.
+### Tiêu chí khi đi xem mặt bằng
 
-## 2. Lịch chuẩn bị 4 tháng (nháp)
+Loại ngay nếu không đạt:
+1. Chủ nhà cho kinh doanh ăn uống và cho đăng ký hộ kinh doanh tại địa chỉ.
+2. Không ngập khi mưa, triều cường.
+3. Được dùng gas công nghiệp. Có chỗ đặt bình gas thoáng, tách khỏi khu nấu.
 
-Tết Đinh Mùi: mùng 1 là 6/2/2027. Từ cuối tháng 1 tới khoảng 20/2, cơ quan, thợ, nhà cung cấp đều chậm.
+Cần kiểm tra:
+4. Điện: có đồng hồ riêng, tối thiểu 1 pha 40A. Có 3 pha là điểm cộng. Chủ nhà tính giá điện bao nhiêu/kWh.
+5. Trệt, từ khoảng 30m², xếp được 1 chiều: nhận hàng → sơ chế → nấu → chia hộp → cửa giao. Đủ chỗ cho 2 tủ hấp, 2-3 tủ lạnh, bàn chia hộp 2m.
+6. Thoát nước tốt, có chỗ đặt bẫy mỡ.
+7. Lắp được quạt hút ra ngoài, không thổi vào nhà hàng xóm.
+8. Nhà vệ sinh không mở thẳng vào khu nấu.
+9. Có chỗ dừng xe nhận hàng lúc 14:00 và xếp thùng giao lúc 10:30.
+10. Ra nhanh trục Nguyễn Hữu Thọ (đi Q.4, Q.1) và Nguyễn Văn Linh (đi Trung Sơn).
 
-| Thời gian | Việc chính |
+## 2. Menu (đang làm)
+
+### Khung đã chốt
+- 2 lựa chọn mỗi ngày. Mỗi hộp: đạm, gạo lứt, rau, củ, sốt.
+- Luộc và hấp là chính.
+
+### Quy tắc đề xuất [CHỐT]
+1. Hai lựa chọn trong ngày dùng chung gạo lứt, rau, củ. Chỉ khác đạm và sốt.
+2. Mỗi tuần dùng 4-5 loại đạm. Xoay vòng giữa các tuần.
+3. Sốt tạo ra khác biệt. Nấu mẻ lớn 2-3 lần/tuần, chia cốc riêng.
+4. Rau xanh chần sát giờ đóng hộp. Củ hấp.
+5. Không đưa vào menu: món chiên giòn, món nhiều nước, món phải cuốn hoặc xiên từng cái.
+6. Menu xoay vòng 4 tuần.
+7. Mỗi món có thẻ công thức: gram từng phần, thời gian hấp, sốt đi kèm.
+
+### Lịch đặt món mỗi tuần (đề xuất)
+
+| Ngày | Việc |
 | --- | --- |
-| 28/11 - 20/12 | Chốt menu khung, công thức theo gram. Tìm và ký mặt bằng. Chốt danh sách máy theo điện của mặt bằng |
-| 21/12 - 20/1 | Sửa bếp, lắp máy. Đăng ký hộ kinh doanh. Khám sức khỏe. Nộp hồ sơ ATTP trước Tết |
-| 21/1 - 15/2 | Tết. Nấu thử trong bếp: đo thời gian, cân định lượng, tính calo |
-| 16/2 - 28/2 | Thẩm định ATTP. Chụp ảnh món. Mở trang, nhận đặt trước. Chốt nhà cung cấp |
-| 1/3 - 14/3 | Bán thử cho người quen và khách đầu tiên |
-| Giữa tháng 3 | Mở bán chính thức |
+| Chủ nhật | Đăng menu tuần sau |
+| Thứ 2 đến hết thứ 4 | Khách chọn món, chuyển khoản |
+| Thứ 5 | Tổng hợp số suất từng món từng ngày. Đặt hàng nhà cung cấp cho cả tuần sau |
+| Thứ 6 | Nhà cung cấp xác nhận. In sẵn danh sách và tem |
 
-## 3. Câu hỏi đang chờ trả lời
+Khách biết tới bếp từ thứ 5 đến Chủ nhật phải đợi tới tuần sau nữa mới có cơm. Đề xuất nấu dư khoảng 5% để bán cho khách mới và bù hộp lỗi [CHỐT].
 
-1. Mục tiêu số suất/ngày: tháng 3/2027 và tháng 8/2027?
-2. Mỗi ngày mấy lựa chọn? Đề xuất 2, dùng chung gạo lứt, rau, củ, chỉ khác đạm và sốt.
-3. 60k áp dụng cho mọi suất, hay vẫn có gói tuần/tháng? Khách trả tiền trước cả tuần không?
-4. Hạn khách gửi lại món cho tuần sau? Trong tuần được đổi, hủy tới mấy giờ hôm trước?
-5. Ai giao: chỉ bạn, hay cả partner đi 1 tuyến sau khi đóng hộp?
-6. Khách thường ăn lúc mấy giờ? Văn phòng của họ có lò vi sóng không?
-7. "Luộc" là luộc trong nước, hay hấp cũng được?
-8. Partner đã từng nấu một lần 20-50 suất chưa?
+## 3. Giao hàng (ghi chú, làm kỹ ở mục 4)
+
+Một người giao được bao nhiêu suất trong khung 11:00-12:00 [ƯT]:
+- Rời bếp khoảng 10:30. Khoảng 15 phút mỗi điểm (dừng xe, gọi khách, khách xuống sảnh, đi tới điểm sau). Được khoảng 5-6 điểm.
+- Khách lẻ, 1-2 hộp mỗi điểm: khoảng 5-12 suất.
+- Gom theo tòa nhà, 5-8 hộp mỗi điểm: khoảng 25-45 suất.
+- Khách công ty, 15-25 hộp mỗi điểm: khoảng 75-150 suất.
+
+Như vậy "1 shipper cho 100 suất" chỉ đúng nếu phần lớn đơn là đơn công ty. Q.1, Q.4 và Trung Sơn nằm ở 2 hướng ngược nhau, nên 1 người không giao được cả 2 hướng trong 1 giờ.
+
+Thời gian chờ: hộp đóng xong khoảng 10:00-10:30, khách ăn từ 12:00, tức 1,5-2,5 giờ. Thức ăn chín không nên để ở nhiệt độ thường quá 2 giờ, trừ khi giữ trên 60°C (WHO).
+
+## 4. Lịch chuẩn bị theo giai đoạn (nháp)
+
+Mùng 1 Tết Đinh Mùi là 6/2/2027.
+
+| Giai đoạn | Thời gian | Việc chính |
+| --- | --- | --- |
+| Pre-open | Tới 20/12 | Chốt menu khung, thẻ công thức. Ký mặt bằng. Chốt danh sách máy |
+| Pre-open | 21/12 - 20/1 | Sửa bếp, lắp máy. Đăng ký hộ kinh doanh. Khám sức khỏe. Nộp hồ sơ ATTP trước Tết |
+| Pre-open | 21/1 - 15/2 | Tết. Nấu thử tăng dần 20 → 50 → 100 suất để partner quen nấu số lượng lớn |
+| Pre-open | 16/2 - 28/2 | Thẩm định ATTP. Chụp ảnh món. Mở trang, nhận đặt món tuần đầu |
+| Soft-open | 2 tuần đầu tháng 3 | Bán thật, đo số liệu: thời gian từng khâu, số điểm giao, nhiệt độ hộp, giá vốn |
+| Grand-open | Giữa hoặc cuối tháng 3 | Mở chính thức, quyết định thuê shipper theo số liệu Soft-open |
+
+## 5. Câu hỏi đang chờ
+
+1. Khung nhận hàng mở rộng thành 10:30-12:00 được không?
+2. Soft-open giao khu nào trước?
+3. Partner có danh sách món đạm và sốt chưa?
+4. Rau và củ dùng chung cho cả 2 lựa chọn trong ngày được không?
+5. Loại đạm: có dùng bò, tôm không?
+6. Một cỡ suất hay 2 cỡ?
+7. Gói tháng tính 20 suất?
