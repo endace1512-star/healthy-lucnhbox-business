@@ -18,19 +18,24 @@ Ký hiệu: **[XM]** đã xác minh có nguồn. **[ƯT]** ước tính. **[CH�
 | Khách | Mọi người, tập trung vào phụ nữ. Khách văn phòng ăn trưa từ 12:00 | 27/11 |
 | Kênh bán | Facebook, Instagram. Không bán qua app. Web: cân nhắc sau | 27/11 |
 | Giá | Gói tháng 60.000đ/suất, gói tuần 65.000đ/suất. Miễn phí giao | 27/11 |
+| Gói tháng | Số suất bằng số ngày làm việc của tháng. Chỉ bán vào đầu tháng để tính đúng số ngày | 27/11 |
 | Bữa | Chỉ bữa trưa. Thứ 2 đến thứ 6 | 27/11 |
 | Hộp cơm | 4 phần: đạm, gạo lứt, rau, củ. Có sốt | 27/11 |
-| Lựa chọn | 2 lựa chọn mỗi ngày | 27/11 |
+| Lựa chọn | 2 lựa chọn mỗi ngày. Rau và củ dùng chung cho cả 2, chỉ khác đạm | 27/11 |
+| Đạm | Cá, gà, heo, bò, trứng. Không dùng tôm | 27/11 |
+| Cỡ suất | 1 cỡ | 27/11 |
+| Cách xây menu | Chủ dự án xây menu trước, partner chốt cách nấu, sau đó mới làm sốt | 27/11 |
 | Cách nấu | Ít dầu mỡ. Luộc và hấp là chính | 27/11 |
 | Calo | Ghi trên menu. Tính sau khi chốt món và cách nấu | 27/11 |
 | Không có | Trái cây. Món chay chưa cần | 27/11 |
 | Bán thêm sau | Canh rong biển | 27/11 |
 | Đặt món | Menu theo tuần. Khách gửi lựa chọn cho tuần sau trong ngày thứ 4. Từ thứ 5 không nhận | 27/11 |
 | Công thức | Partner có sẵn | 27/11 |
-| Giao | Khách nhận hộp trong khung 11:00-12:00. Chỉ chủ dự án đi giao. Dưới khoảng 50 suất tự giao, nhiều hơn thì thuê shipper (dự tính 1 shipper cho mỗi 100 suất, chốt lại sau Soft-open) | 27/11 |
+| Giao | Khách nhận hộp trong khung 10:00-12:00. Chỉ chủ dự án đi giao. Dưới khoảng 50 suất tự giao, nhiều hơn thì thuê shipper (dự tính 1 shipper cho mỗi 100 suất, chốt lại sau Soft-open). Soft-open có khách ở khu nào thì giao khu đó | 27/11 |
 | Khi đi giao | Partner dọn bếp, tổng hợp thừa thiếu | 27/11 |
-| Hộp | Bã mía hoặc nhựa | 27/11 |
+| Hộp | Bã mía hoặc nhựa. Chốt sau | 27/11 |
 | Máy móc | Ngân sách 60 triệu, có thể điều chỉnh | 27/11 |
+| Checklist mặt bằng | Đã chốt. Bản in: [checklist-mat-bang.pdf](checklist-mat-bang.pdf) | 27/11 |
 | Thương hiệu, trang bán | Làm sau khi xong quy trình | 27/11 |
 
 ## 1. Cơ sở vật chất (đề xuất lần 2, chờ chốt)
@@ -82,7 +87,9 @@ Lò nướng, chảo rang tự đảo, bếp chiên phẳng, máy thái thịt, 
 - Mặt bằng có sẵn điện 3 pha: cân nhắc tủ điện, vì chạy điện rẻ hơn gas khoảng 2-3 lần tính trên nhiệt dùng được [ƯT, giá 10-11/2026].
 - Tủ lạnh, máy in, đèn, quạt dùng điện 1 pha.
 
-### Tiêu chí khi đi xem mặt bằng
+### Tiêu chí khi đi xem mặt bằng (đã chốt 27/11)
+
+Bản in để mang theo khi đi xem: [checklist-mat-bang.pdf](checklist-mat-bang.pdf).
 
 Loại ngay nếu không đạt:
 1. Chủ nhà cho kinh doanh ăn uống và cho đăng ký hộ kinh doanh tại địa chỉ.
@@ -100,18 +107,45 @@ Cần kiểm tra:
 
 ## 2. Menu (đang làm)
 
+Thứ tự: chủ dự án xây menu → partner chốt cách nấu → làm sốt → tính calo.
+
 ### Khung đã chốt
 - 2 lựa chọn mỗi ngày. Mỗi hộp: đạm, gạo lứt, rau, củ, sốt.
+- Rau và củ dùng chung cho cả 2 lựa chọn. Chỉ khác đạm (và sốt).
+- Đạm: cá, gà, heo, bò, trứng. Không tôm. 1 cỡ suất.
 - Luộc và hấp là chính.
 
+### Lưới cần điền
+4 tuần × 5 ngày. Mỗi ngày: 2 món đạm và 1 cặp rau, củ. Tổng 40 món đạm, 20 cặp rau củ.
+
+| Tuần | Ngày | Lựa chọn 1: đạm, cách nấu | Lựa chọn 2: đạm, cách nấu | Rau (chung) | Củ (chung) |
+| --- | --- | --- | --- | --- | --- |
+| Ví dụ | Thứ 2 | Ức gà hấp hành gừng | Cá basa hấp tương | Bông cải chần | Cà rốt hấp |
+
 ### Quy tắc đề xuất [CHỐT]
-1. Hai lựa chọn trong ngày dùng chung gạo lứt, rau, củ. Chỉ khác đạm và sốt.
-2. Mỗi tuần dùng 4-5 loại đạm. Xoay vòng giữa các tuần.
-3. Sốt tạo ra khác biệt. Nấu mẻ lớn 2-3 lần/tuần, chia cốc riêng.
-4. Rau xanh chần sát giờ đóng hộp. Củ hấp.
-5. Không đưa vào menu: món chiên giòn, món nhiều nước, món phải cuốn hoặc xiên từng cái.
-6. Menu xoay vòng 4 tuần.
-7. Mỗi món có thẻ công thức: gram từng phần, thời gian hấp, sốt đi kèm.
+1. Hai lựa chọn trong ngày là 2 loại đạm khác nhau.
+2. Mỗi loại đạm tối đa 3 lần/tuần.
+3. Bò tối đa 1 lần/tuần. Bò khoảng 200-300k/kg [ƯT, giá 10/2026], đắt gấp 3-4 lần gà, heo.
+4. Trứng nên đi kèm thịt (ví dụ trứng hấp thịt). 2 quả trứng chỉ có khoảng 12g đạm, bằng khoảng một nửa 100g ức gà.
+5. Cá chỉ dùng loại phi lê không xương. Khách ăn ở văn phòng.
+6. Rau lá chần sát giờ đóng hộp. Củ hấp.
+7. Không lặp lại cùng một món trong 2 tuần liền.
+8. Không làm món chiên giòn, món nhiều nước, món phải cuốn hoặc xiên từng cái.
+
+### Kho nguyên liệu gợi ý (partner chỉnh)
+
+| Nhóm | Gợi ý |
+| --- | --- |
+| Gà | Ức gà, đùi gà rút xương, gà bằm (chả, viên hấp) |
+| Heo | Nạc thăn, nạc vai, heo bằm (chả, viên hấp) |
+| Bò | Bắp bò (hợp luộc), bò bằm (viên hấp) |
+| Cá | Basa phi lê, diêu hồng phi lê, cá lóc phi lê |
+| Trứng | Trứng gà, trứng cút |
+| Rau giữ màu tốt | Bông cải xanh, đậu que, đậu Hà Lan, bắp cải |
+| Rau mềm, chần sát giờ | Cải thìa, cải ngọt, cải bẹ xanh |
+| Củ hấp | Cà rốt, bí đỏ, củ cải trắng, su su, bí ngòi, củ dền |
+
+Khoai lang, bắp, khoai tây là tinh bột. Nếu dùng làm "củ" thì hộp có 2 phần tinh bột cùng gạo lứt [CHỐT].
 
 ### Lịch đặt món mỗi tuần (đề xuất)
 
@@ -119,12 +153,14 @@ Cần kiểm tra:
 | --- | --- |
 | Chủ nhật | Đăng menu tuần sau |
 | Thứ 2 đến hết thứ 4 | Khách chọn món, chuyển khoản |
-| Thứ 5 | Tổng hợp số suất từng món từng ngày. Đặt hàng nhà cung cấp cho cả tuần sau |
+| Thứ 5 | Tổng hợp số suất từng món, từng ngày. Đặt hàng nhà cung cấp cho cả tuần |
 | Thứ 6 | Nhà cung cấp xác nhận. In sẵn danh sách và tem |
 
 Khách biết tới bếp từ thứ 5 đến Chủ nhật phải đợi tới tuần sau nữa mới có cơm. Đề xuất nấu dư khoảng 5% để bán cho khách mới và bù hộp lỗi [CHỐT].
 
 ## 3. Giao hàng (ghi chú, làm kỹ ở mục 4)
+
+Khung nhận hộp đã giãn thành 10:00-12:00 (chốt 27/11). Số dưới đây tính cho khung cũ 11:00-12:00. Khung 2 giờ giao được khoảng gấp đôi.
 
 Một người giao được bao nhiêu suất trong khung 11:00-12:00 [ƯT]:
 - Rời bếp khoảng 10:30. Khoảng 15 phút mỗi điểm (dừng xe, gọi khách, khách xuống sảnh, đi tới điểm sau). Được khoảng 5-6 điểm.
@@ -151,10 +187,10 @@ Mùng 1 Tết Đinh Mùi là 6/2/2027.
 
 ## 5. Câu hỏi đang chờ
 
-1. Khung nhận hàng mở rộng thành 10:30-12:00 được không?
-2. Soft-open giao khu nào trước?
-3. Partner có danh sách món đạm và sốt chưa?
-4. Rau và củ dùng chung cho cả 2 lựa chọn trong ngày được không?
-5. Loại đạm: có dùng bò, tôm không?
-6. Một cỡ suất hay 2 cỡ?
-7. Gói tháng tính 20 suất?
+1. Ngoài luộc, hấp: có cho kho ít đường, áp chảo ít dầu không?
+2. Bò tối đa 1 lần/tuần: đồng ý?
+3. Có dùng khoai lang, bắp, khoai tây làm phần "củ" không?
+4. Gói tháng mở bán từ ngày nào tới ngày nào của tháng trước?
+5. Mở bán giữa tháng 3 thì tháng 3 chỉ bán gói tuần, gói tháng bắt đầu từ tháng 4: đồng ý?
+6. Ngày lễ trong tháng có được tính vào số suất của gói tháng không?
+7. Loại hộp: bã mía hay nhựa PP? (chốt sau)
