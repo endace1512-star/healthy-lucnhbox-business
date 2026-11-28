@@ -32,6 +32,9 @@ Ký hiệu: **[XM]** đã xác minh có nguồn. **[ƯT]** ước tính. **[CH�
 | Sốt | Nấu từ chiều hôm trước, cất tủ mát. Sáng chỉ hâm | 28/11 |
 | Lịch một ngày | 2 ca: 14:00-18:00 hôm trước và 5:30-12:00 ngày bán. Chỉnh lại sau khi chạy thật | 28/11 |
 | Giữ nhiệt | Giao nóng: đóng hộp lúc còn nóng, vào thùng giữ nhiệt ngay. Đo nhiệt độ hộp lúc trao cho khách trong Soft-open | 28/11 |
+| Đóng hộp | Sốt trong hũ riêng. Nhãn thiết kế riêng có logo. Luôn kèm muỗng, nĩa. Đơn từ 3 hộp cho chung 1 túi | 28/11 |
+| Khi giao | Khách luôn chốt giờ giao. Tuyến tự sắp mỗi ngày. Khách xuống sảnh. Không gặp khách thì gửi lễ tân, chụp ảnh. Chụp ảnh mọi điểm giao. Chỉ nhận chuyển khoản trước | 28/11 |
+| Khách lúc đầu | Chủ yếu khách lẻ. Chưa làm chương trình đặt chung | 28/11 |
 | Củ | Được dùng khoai lang, bắp, khoai tây | 28/11 |
 | Calo | Ghi trên menu. Tính sau khi chốt món và cách nấu | 27/11 |
 | Không có | Trái cây. Món chay chưa cần | 27/11 |
@@ -217,21 +220,32 @@ Tính cho Soft-open, khoảng 30-50 suất, 2 người. Tính ngược từ mố
 
 ## 4. Đóng hộp và giao hàng (đang làm)
 
-### Cần chốt [CHỐT]
+### Đã chốt (28/11)
 
 Đóng hộp:
-1. Sốt để trong hũ nhỏ riêng (30-50ml, có nắp), không rưới lên cơm. Lý do: đóng hộp nóng mà rưới sốt thì cơm, rau dễ nhão. Khách cũng tự chọn ăn bao nhiêu sốt.
-2. Tem trên mỗi hộp ghi: tên khách, tên món, ngày, "Nên dùng trước 13:00". Calo thêm vào sau khi tính xong. Giờ "dùng trước" chỉnh lại theo nhiệt độ đo được trong Soft-open.
-3. Muỗng, nĩa: chỉ đưa khi khách yêu cầu lúc đặt món. Khách văn phòng thường có sẵn.
-4. Đơn từ 3 hộp trở lên: cho vào chung 1 túi, ghi tên người nhận ngoài túi.
+1. Sốt để trong hũ nhỏ riêng (30-50ml, có nắp), không rưới lên cơm. Đóng hộp nóng mà rưới sốt thì cơm, rau dễ nhão.
+2. Mỗi hộp dán 1 nhãn có thiết kế riêng: logo và vài thông tin thương hiệu để tăng nhận diện, cùng tên khách, tên món, ngày, "Nên dùng trước 13:00". Calo thêm sau. Giờ "dùng trước" chỉnh theo nhiệt độ đo trong Soft-open.
+3. Luôn giao kèm muỗng, nĩa.
+4. Đơn từ 3 hộp trở lên cho chung 1 túi, ghi tên người nhận ngoài túi. Lưu ý: lúc đầu chủ yếu là khách lẻ vì thương hiệu mới. Chưa làm chương trình mời khách đặt chung.
 
 Giao:
-5. Một chuyến 10:00-12:00 giao được khoảng 6-10 điểm [ƯT]. Số điểm quan trọng hơn số hộp. Khuyến khích khách cùng tòa nhà nhận chung 1 điểm.
-6. Soft-open: giao Q.7 trước vì gần bếp, sau đó đi 1 hướng (Q.4 rồi Q.1, hoặc Trung Sơn). Nếu có khách cả 2 hướng thì tuyến xa nhất đi cuối.
-7. Khách không chọn giờ cụ thể. Bếp nhắn tin khoảng 10 phút trước khi tới. Khách xuống sảnh nhận.
+5. Đếm sức giao theo số điểm, không theo số hộp. Một chuyến 10:00-12:00 giao được khoảng 6-10 điểm [ƯT].
+6. Tuyến giao: chủ dự án tự sắp xếp mỗi ngày theo đơn thật.
+7. Khách luôn phải chốt giờ giao. Nhắn tin khoảng 10 phút trước khi tới. Khách xuống sảnh nhận.
 8. Gọi 2 lần không được hoặc chờ quá 5 phút: gửi lễ tân hoặc bảo vệ, chụp ảnh gửi khách. Hộp đã giao đúng địa chỉ thì không hoàn tiền.
-9. Chụp ảnh mỗi điểm giao (hộp, sảnh tòa nhà) gửi khách. Dùng làm bằng chứng khi có khiếu nại.
+9. Chụp ảnh mỗi điểm giao (hộp, sảnh tòa nhà) gửi khách, làm bằng chứng khi có khiếu nại.
 10. Chỉ nhận chuyển khoản trước. Lúc giao không thu tiền mặt.
+
+### Hệ quả cần biết [ƯT]
+- Khách lẻ thường 1-2 hộp mỗi điểm. 6-10 điểm mỗi chuyến tức khoảng 6-20 hộp. Mốc "dưới 50 suất thì tự giao" chỉ đúng khi nhiều khách nhận chung một chỗ. Với khách lẻ, 1 người có thể kín sức từ khoảng 10 điểm.
+- Khách chốt giờ làm tuyến khó sắp hơn: 2 khách khác hướng cùng chọn 10:30 thì 1 người không giao đúng giờ được. Cần giới hạn khung giờ theo khu.
+- Nhãn có logo phải chờ có thương hiệu. Cần xong thiết kế và in thử trước khi nấu thử tháng 2.
+
+### Cần chốt [CHỐT]
+11. Cách in nhãn: (A) 1 nhãn in nhiệt, logo đen trắng, in đủ thông tin mỗi ngày. Rẻ, nhanh, dán 1 lần. (B) Nhãn màu có logo in sẵn số lượng lớn, cộng 1 tem nhiệt nhỏ cho thông tin từng khách. Đẹp hơn, nhưng mỗi hộp dán 2 lần.
+12. Muỗng, nĩa: gỗ hay nhựa? Có kèm khăn giấy không?
+13. Khung giờ giao: khung 30 phút. Mỗi khu chỉ mở một số khung. Khách chọn 1 khung cố định cho cả tuần, muốn đổi thì báo trước 1 ngày.
+14. Trong Soft-open, khi số điểm vượt sức 1 người: (a) giới hạn số điểm nhận mỗi ngày, (b) thuê shipper theo giờ sớm hơn, (c) gọi dịch vụ giao theo chuyến cho điểm xa.
 
 ### Ghi chú cũ về sức giao
 
@@ -255,7 +269,7 @@ Mùng 1 Tết Đinh Mùi là 6/2/2027.
 | --- | --- | --- |
 | Pre-open | Tới 20/12 | Chốt menu khung, thẻ công thức. Ký mặt bằng. Chốt danh sách máy |
 | Pre-open | 21/12 - 20/1 | Sửa bếp, lắp máy. Đăng ký hộ kinh doanh. Khám sức khỏe. Nộp hồ sơ ATTP trước Tết |
-| Pre-open | 21/1 - 15/2 | Tết. Nấu thử tăng dần 20 → 50 → 100 suất để partner quen nấu số lượng lớn |
+| Pre-open | 21/1 - 15/2 | Tết. Nấu thử tăng dần 20 → 50 → 100 suất để partner quen nấu số lượng lớn. Logo và nhãn phải xong trước đợt nấu thử |
 | Pre-open | 16/2 - 28/2 | Thẩm định ATTP. Chụp ảnh món. Mở trang, nhận đặt món tuần đầu |
 | Soft-open | 2 tuần đầu tháng 3 | Bán thật, chỉ gói tuần. Đo số liệu: thời gian từng khâu, số điểm giao, nhiệt độ hộp, giá vốn |
 | Grand-open | Giữa hoặc cuối tháng 3 | Mở chính thức, quyết định thuê shipper theo số liệu Soft-open |
@@ -263,5 +277,5 @@ Mùng 1 Tết Đinh Mùi là 6/2/2027.
 
 ## 6. Câu hỏi đang chờ
 
-1. Mục 4: 10 điểm đóng hộp và giao hàng (xem mục 4).
+1. Mục 4: câu 11-14 (cách in nhãn, muỗng nĩa, khung giờ giao, khi vượt sức giao).
 2. Loại hộp: bã mía hay nhựa PP? (chốt sau). Đã chọn giao nóng, nên bã mía hợp hơn.
