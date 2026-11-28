@@ -35,7 +35,7 @@ Ký hiệu: **[XM]** đã xác minh có nguồn. **[ƯT]** ước tính. **[CH�
 | Khi đi giao | Partner dọn bếp, tổng hợp thừa thiếu | 27/11 |
 | Hộp | Bã mía hoặc nhựa. Chốt sau | 27/11 |
 | Máy móc | Ngân sách 60 triệu, có thể điều chỉnh | 27/11 |
-| Checklist mặt bằng | Đã chốt. Bản in: [checklist-mat-bang.pdf](checklist-mat-bang.pdf) | 27/11 |
+| Checklist mặt bằng | Đã chốt, rút gọn còn 3 trang. Bản in: [checklist-mat-bang.pdf](checklist-mat-bang.pdf) | 28/11 |
 | Thương hiệu, trang bán | Làm sau khi xong quy trình | 27/11 |
 
 ## 1. Cơ sở vật chất (đề xuất lần 2, chờ chốt)
@@ -87,9 +87,9 @@ Lò nướng, chảo rang tự đảo, bếp chiên phẳng, máy thái thịt, 
 - Mặt bằng có sẵn điện 3 pha: cân nhắc tủ điện, vì chạy điện rẻ hơn gas khoảng 2-3 lần tính trên nhiệt dùng được [ƯT, giá 10-11/2026].
 - Tủ lạnh, máy in, đèn, quạt dùng điện 1 pha.
 
-### Tiêu chí khi đi xem mặt bằng (đã chốt 27/11)
+### Tiêu chí khi đi xem mặt bằng (chốt 27/11, rút gọn 28/11)
 
-Bản in để mang theo khi đi xem: [checklist-mat-bang.pdf](checklist-mat-bang.pdf).
+Bản in để mang theo khi đi xem: [checklist-mat-bang.pdf](checklist-mat-bang.pdf) (3 trang).
 
 Loại ngay nếu không đạt:
 1. Chủ nhà cho kinh doanh ăn uống và cho đăng ký hộ kinh doanh tại địa chỉ.
@@ -97,13 +97,17 @@ Loại ngay nếu không đạt:
 3. Được dùng gas công nghiệp. Có chỗ đặt bình gas thoáng, tách khỏi khu nấu.
 
 Cần kiểm tra:
-4. Điện: có đồng hồ riêng, tối thiểu 1 pha 40A. Có 3 pha là điểm cộng. Chủ nhà tính giá điện bao nhiêu/kWh.
-5. Trệt, từ khoảng 30m², xếp được 1 chiều: nhận hàng → sơ chế → nấu → chia hộp → cửa giao. Đủ chỗ cho 2 tủ hấp, 2-3 tủ lạnh, bàn chia hộp 2m.
-6. Thoát nước tốt, có chỗ đặt bẫy mỡ.
+4. Điện: có đồng hồ riêng. Chủ nhà tính giá điện bao nhiêu/kWh.
+5. Trệt, từ khoảng 30m². Có cửa trước và cửa sau là điểm cộng.
+6. Thoát nước tốt, có chỗ đặt bẫy mỡ. Lắp thêm được chỗ rửa tay riêng.
 7. Lắp được quạt hút ra ngoài, không thổi vào nhà hàng xóm.
-8. Nhà vệ sinh không mở thẳng vào khu nấu.
-9. Có chỗ dừng xe nhận hàng lúc 14:00 và xếp thùng giao lúc 10:30.
-10. Ra nhanh trục Nguyễn Hữu Thọ (đi Q.4, Q.1) và Nguyễn Văn Linh (đi Trung Sơn).
+8. Nền, tường dễ lau. Nhà vệ sinh không mở thẳng vào khu nấu. Không sát bãi rác, cống hở.
+9. Có chỗ dừng xe nhận hàng lúc 14:00 và xếp thùng giao lúc 10:00. Hẻm đủ rộng cho xe máy chở hàng.
+
+Hỏi chủ nhà và hợp đồng:
+- Chỉ thuê của người đứng tên sổ hồng. Không thuê lại.
+- Bên cho thuê chịu thuế cho thuê nhà (mặc định).
+- Không cần điều khoản mức tăng giá.
 
 ## 2. Menu (đang làm)
 
