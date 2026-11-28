@@ -17,15 +17,18 @@ Ký hiệu: **[XM]** đã xác minh có nguồn. **[ƯT]** ước tính. **[CH�
 | Khu giao | Q.1, Q.4, Q.7, khu Trung Sơn (Bình Chánh) | 27/11 |
 | Khách | Mọi người, tập trung vào phụ nữ. Khách văn phòng ăn trưa từ 12:00 | 27/11 |
 | Kênh bán | Facebook, Instagram. Không bán qua app. Web: cân nhắc sau | 27/11 |
-| Giá | Gói tháng 60.000đ/suất, gói tuần 65.000đ/suất. Miễn phí giao | 27/11 |
-| Gói tháng | Số suất bằng số ngày làm việc của tháng. Chỉ bán vào đầu tháng để tính đúng số ngày | 27/11 |
+| Giá | Tháng 3/2027 chỉ bán gói tuần, 65.000đ/suất, miễn phí giao | 28/11 |
+| Gói tháng | Tạm gác. Sau tháng 3 mới quyết định dựa trên số liệu thật. Gói tháng sẽ đến từ khách gói tuần quen | 28/11 |
 | Bữa | Chỉ bữa trưa. Thứ 2 đến thứ 6 | 27/11 |
+| Ngày lễ | Nghỉ tất cả ngày lễ và Tết. Thay quyết định 26/11 (lễ vẫn bán, trừ Tết) | 28/11 |
 | Hộp cơm | 4 phần: đạm, gạo lứt, rau, củ. Có sốt | 27/11 |
 | Lựa chọn | 2 lựa chọn mỗi ngày. Rau và củ dùng chung cho cả 2, chỉ khác đạm | 27/11 |
 | Đạm | Cá, gà, heo, bò, trứng. Không dùng tôm | 27/11 |
 | Cỡ suất | 1 cỡ | 27/11 |
 | Cách xây menu | Chủ dự án xây menu trước, partner chốt cách nấu, sau đó mới làm sốt | 27/11 |
-| Cách nấu | Ít dầu mỡ. Luộc và hấp là chính | 27/11 |
+| Cách nấu | Ít dầu mỡ. Luộc và hấp là chính. Có áp chảo ít dầu. Không kho vì mất thời gian | 28/11 |
+| Bò | Tối đa 1 lần/tuần | 28/11 |
+| Củ | Được dùng khoai lang, bắp, khoai tây | 28/11 |
 | Calo | Ghi trên menu. Tính sau khi chốt món và cách nấu | 27/11 |
 | Không có | Trái cây. Món chay chưa cần | 27/11 |
 | Bán thêm sau | Canh rong biển | 27/11 |
@@ -58,8 +61,9 @@ Cỡ máy tính cho mục tiêu 200 suất. Máy lớn mua theo giai đoạn.
 | --- | --- | --- |
 | Tủ hấp/tủ cơm 12 khay | Pre-open | Đủ cho Soft-open. Hấp đạm, củ, nấu gạo lứt |
 | Tủ cơm 8 khay | Khi vượt khoảng 80-100 suất | Tách riêng nấu gạo lứt. Có thêm máy dự phòng khi 1 tủ hỏng |
-| Bếp gas công nghiệp 2 họng | Pre-open | 1 họng chần rau xanh sát giờ đóng hộp, 1 họng nấu sốt |
-| Nồi chần 30-40 lít, nồi sốt 10-15 lít, khay inox có lỗ | Pre-open | |
+| Bếp gas công nghiệp 2 họng | Pre-open | Sáng: 1 họng chần rau sát giờ đóng hộp, 1 họng áp chảo. Chiều: nấu sốt |
+| Nồi chần 30-40 lít, nồi sốt 10-15 lít, khay inox có lỗ, 2 chảo 32-36cm | Pre-open | |
+| Bếp chiên phẳng (áp chảo nhiều miếng cùng lúc) | Cân nhắc khi vượt khoảng 100 suất | Chỉ cần nếu menu có nhiều món áp chảo |
 
 Rau lá xanh hấp lâu sẽ ngả màu. Nên chần nhanh trong nồi ngay trước khi đóng hộp. Củ thì hấp trong tủ.
 
@@ -80,7 +84,7 @@ Rau lá xanh hấp lâu sẽ ngả màu. Nên chần nhanh trong nồi ngay trư
 - Hút mùi và quạt thông gió (hấp, chần nhiều hơi nước, dễ mốc tường), bình chữa cháy, thùng rác có nắp, bẫy mỡ, nhiệt kế tủ, nhiệt kế đầu dò, đồ bảo hộ.
 
 ### Không cần với menu này
-Lò nướng, chảo rang tự đảo, bếp chiên phẳng, máy thái thịt, máy hút chân không, lò combi, máy rửa chén.
+Lò nướng, chảo rang tự đảo, máy thái thịt, máy hút chân không, lò combi, máy rửa chén.
 
 ### Gas hay điện
 - Mặc định: tủ hấp, tủ cơm và bếp chạy **gas**. Hai tủ chạy điện cần khoảng 20kW, phải có điện 3 pha. Xin lắp 3 pha mất thời gian, mà lịch chuẩn bị có Tết ở giữa.
@@ -117,7 +121,9 @@ Thứ tự: chủ dự án xây menu → partner chốt cách nấu → làm s�
 - 2 lựa chọn mỗi ngày. Mỗi hộp: đạm, gạo lứt, rau, củ, sốt.
 - Rau và củ dùng chung cho cả 2 lựa chọn. Chỉ khác đạm (và sốt).
 - Đạm: cá, gà, heo, bò, trứng. Không tôm. 1 cỡ suất.
-- Luộc và hấp là chính.
+- Luộc và hấp là chính. Có áp chảo ít dầu. Không kho.
+- Bò tối đa 1 lần/tuần.
+- Củ được dùng cả khoai lang, bắp, khoai tây.
 
 ### Lưới cần điền
 4 tuần × 5 ngày. Mỗi ngày: 2 món đạm và 1 cặp rau, củ. Tổng 40 món đạm, 20 cặp rau củ.
@@ -129,12 +135,13 @@ Thứ tự: chủ dự án xây menu → partner chốt cách nấu → làm s�
 ### Quy tắc đề xuất [CHỐT]
 1. Hai lựa chọn trong ngày là 2 loại đạm khác nhau.
 2. Mỗi loại đạm tối đa 3 lần/tuần.
-3. Bò tối đa 1 lần/tuần. Bò khoảng 200-300k/kg [ƯT, giá 10/2026], đắt gấp 3-4 lần gà, heo.
+3. Bò tối đa 1 lần/tuần (đã chốt 28/11). Bò khoảng 200-300k/kg [ƯT, giá 10/2026], đắt gấp 3-4 lần gà, heo.
 4. Trứng nên đi kèm thịt (ví dụ trứng hấp thịt). 2 quả trứng chỉ có khoảng 12g đạm, bằng khoảng một nửa 100g ức gà.
 5. Cá chỉ dùng loại phi lê không xương. Khách ăn ở văn phòng.
 6. Rau lá chần sát giờ đóng hộp. Củ hấp.
 7. Không lặp lại cùng một món trong 2 tuần liền.
 8. Không làm món chiên giòn, món nhiều nước, món phải cuốn hoặc xiên từng cái.
+9. Mỗi ngày tối đa 1 lựa chọn áp chảo. Áp chảo làm từng mẻ trên bếp, chậm hơn hấp nhiều (xem mục 3).
 
 ### Kho nguyên liệu gợi ý (partner chỉnh)
 
@@ -149,7 +156,7 @@ Thứ tự: chủ dự án xây menu → partner chốt cách nấu → làm s�
 | Rau mềm, chần sát giờ | Cải thìa, cải ngọt, cải bẹ xanh |
 | Củ hấp | Cà rốt, bí đỏ, củ cải trắng, su su, bí ngòi, củ dền |
 
-Khoai lang, bắp, khoai tây là tinh bột. Nếu dùng làm "củ" thì hộp có 2 phần tinh bột cùng gạo lứt [CHỐT].
+Khoai lang, bắp, khoai tây được dùng làm "củ" (chốt 28/11). Ba loại này là tinh bột, nên ngày có chúng thì calo cao hơn. Khi tính calo, partner có thể giảm gạo lứt ngày đó.
 
 ### Lịch đặt món mỗi tuần (đề xuất)
 
@@ -162,7 +169,49 @@ Khoai lang, bắp, khoai tây là tinh bột. Nếu dùng làm "củ" thì hộp
 
 Khách biết tới bếp từ thứ 5 đến Chủ nhật phải đợi tới tuần sau nữa mới có cơm. Đề xuất nấu dư khoảng 5% để bán cho khách mới và bù hộp lỗi [CHỐT].
 
-## 3. Giao hàng (ghi chú, làm kỹ ở mục 4)
+Tuần có ngày lễ: bếp nghỉ, menu tuần đó chỉ có 4 ngày, gói tuần tính theo số ngày bán thật.
+
+### Ghi lại cho lúc bàn lại gói tháng (sau tháng 3)
+- Mở bán từ ngày 20 tới ngày 25 của tháng trước (đã đồng ý 28/11).
+- Ngày lễ không tính vào số suất, vì bếp nghỉ (28/11).
+- Giá đã tính trước đây: 60.000đ/suất.
+
+## 3. Lịch một ngày (nháp, đang làm)
+
+Tính cho Soft-open, khoảng 30-50 suất, 2 người. Tính ngược từ mốc đóng hộp xong lúc 10:00 [ƯT].
+
+### Ngày hôm trước
+
+| Giờ | Việc | Ai |
+| --- | --- | --- |
+| 14:00 | Nhận hàng cho ngày mai. Kiểm tra độ tươi, nhiệt độ thịt cá, ghi sổ (kiểm thực bước 1). Thịt cá vào tủ ngay | Cả 2 |
+| 14:30-16:30 | Sơ chế: rửa, cắt rau củ, cho vào hộp có nắp, cất tủ mát. Thái và ướp thịt, cất tủ mát | Cả 2 |
+| 16:30-17:30 | Nấu sốt cho ngày mai, làm nguội nhanh, cất tủ mát. Ngâm gạo lứt nếu công thức cần (ngâm trong tủ mát) | Partner |
+| 16:30-17:30 | In tem, in danh sách giao theo tuyến | Chủ dự án |
+| 17:30-18:00 | Dọn, lau bếp, đổ rác | Cả 2 |
+
+### Ngày bán
+
+| Giờ | Việc | Ai |
+| --- | --- | --- |
+| 5:30 | Mở bếp. Nấu gạo lứt. Bắt nồi nước. Món lâu chín (bắp bò luộc) bắt đầu trước | Partner |
+| 6:00-8:45 | Hấp, luộc, áp chảo đạm. Hấp củ. Món chín xong để trong tủ hấp đã tắt hoặc nồi có nắp, giữ nóng | Partner |
+| 6:00-8:45 | Phụ sơ chế cuối, xếp hộp, tem, thùng giao. Rửa dụng cụ trong lúc nấu | Chủ dự án |
+| 8:45-9:15 | Chần rau lá. Hâm sốt | Partner |
+| 9:15-10:00 | Chia hộp theo dây chuyền, đậy nắp, dán tem. Lưu mẫu (kiểm thực bước 3). Xếp thùng theo tuyến | Cả 2 |
+| 10:00-12:00 | Đi giao | Chủ dự án |
+| 10:00-12:00 | Dọn bếp, rửa, ghi thừa thiếu, kiểm tủ | Partner |
+| 12:00-14:00 | Ăn trưa, nghỉ, trả lời khách | Cả 2 |
+
+### Điểm cần biết [ƯT]
+- Mỗi người làm khoảng 10,5 giờ/ngày (14:00-18:00 và 5:30-12:00), 5 ngày/tuần, chưa tính việc cuối tuần (đăng menu, chốt đơn).
+- Chia hộp: 2 người dây chuyền khoảng 80-120 hộp/giờ. 50 suất mất khoảng 30-40 phút. 200 suất mất khoảng 2 giờ, nên khi lên 200 suất cần thêm 2-3 người part-time khung 9:00-10:00.
+- Áp chảo: chảo 32-36cm làm được khoảng 5-6 miếng/mẻ, 5-6 phút/mẻ, tức khoảng 50-70 miếng/giờ trên 1 họng. Cách nhanh hơn: áp chảo cho vàng mặt rồi cho vào tủ hấp cho chín (partner quyết).
+- Bếp 2 họng: sáng cần 1 họng chần rau, 1 họng áp chảo. Vì vậy đề xuất nấu sốt từ chiều hôm trước.
+- Thời gian từ lúc chín tới lúc ăn: món chín khoảng 8:00-9:15, khách ăn 12:00-12:30, tức khoảng 3-4 giờ. Cách giữ an toàn: đóng hộp lúc còn nóng, cho vào thùng giữ nhiệt ngay, giao điểm ăn muộn sau cùng. Trong Soft-open đo nhiệt độ hộp lúc trao cho khách bằng nhiệt kế đầu dò. Mốc an toàn: trên 60°C, hoặc khách ăn trong vòng 2 giờ sau khi hộp nguội xuống dưới 60°C (WHO).
+- Hộp bã mía hút hơi nước tốt hơn nhựa khi đóng nóng. Hộp nhựa đóng nóng dễ đọng nước, cơm rau bị nhão. Ghi lại cho lúc chốt hộp.
+
+## 4. Giao hàng (ghi chú)
 
 Khung nhận hộp đã giãn thành 10:00-12:00 (chốt 27/11). Số dưới đây tính cho khung cũ 11:00-12:00. Khung 2 giờ giao được khoảng gấp đôi.
 
@@ -176,7 +225,7 @@ Như vậy "1 shipper cho 100 suất" chỉ đúng nếu phần lớn đơn là 
 
 Thời gian chờ: hộp đóng xong khoảng 10:00-10:30, khách ăn từ 12:00, tức 1,5-2,5 giờ. Thức ăn chín không nên để ở nhiệt độ thường quá 2 giờ, trừ khi giữ trên 60°C (WHO).
 
-## 4. Lịch chuẩn bị theo giai đoạn (nháp)
+## 5. Lịch chuẩn bị theo giai đoạn (nháp)
 
 Mùng 1 Tết Đinh Mùi là 6/2/2027.
 
@@ -186,15 +235,14 @@ Mùng 1 Tết Đinh Mùi là 6/2/2027.
 | Pre-open | 21/12 - 20/1 | Sửa bếp, lắp máy. Đăng ký hộ kinh doanh. Khám sức khỏe. Nộp hồ sơ ATTP trước Tết |
 | Pre-open | 21/1 - 15/2 | Tết. Nấu thử tăng dần 20 → 50 → 100 suất để partner quen nấu số lượng lớn |
 | Pre-open | 16/2 - 28/2 | Thẩm định ATTP. Chụp ảnh món. Mở trang, nhận đặt món tuần đầu |
-| Soft-open | 2 tuần đầu tháng 3 | Bán thật, đo số liệu: thời gian từng khâu, số điểm giao, nhiệt độ hộp, giá vốn |
+| Soft-open | 2 tuần đầu tháng 3 | Bán thật, chỉ gói tuần. Đo số liệu: thời gian từng khâu, số điểm giao, nhiệt độ hộp, giá vốn |
 | Grand-open | Giữa hoặc cuối tháng 3 | Mở chính thức, quyết định thuê shipper theo số liệu Soft-open |
+| Sau tháng 3 | Tháng 4 | Quyết định có mở gói tháng không, dựa trên số khách gói tuần mua lại |
 
-## 5. Câu hỏi đang chờ
+## 6. Câu hỏi đang chờ
 
-1. Ngoài luộc, hấp: có cho kho ít đường, áp chảo ít dầu không?
-2. Bò tối đa 1 lần/tuần: đồng ý?
-3. Có dùng khoai lang, bắp, khoai tây làm phần "củ" không?
-4. Gói tháng mở bán từ ngày nào tới ngày nào của tháng trước?
-5. Mở bán giữa tháng 3 thì tháng 3 chỉ bán gói tuần, gói tháng bắt đầu từ tháng 4: đồng ý?
-6. Ngày lễ trong tháng có được tính vào số suất của gói tháng không?
-7. Loại hộp: bã mía hay nhựa PP? (chốt sau)
+1. Mục 3: nấu sốt từ chiều hôm trước để sáng trống 1 họng bếp cho áp chảo: đồng ý?
+2. Mục 3: giao nóng (đóng hộp nóng, thùng giữ nhiệt, đo nhiệt độ trong Soft-open): đồng ý?
+3. Mục 3: lịch 2 ca (14:00-18:00 và 5:30-12:00): đúng ý bạn chưa? Có cần sửa giờ nào?
+4. Mục 2: mỗi ngày tối đa 1 lựa chọn áp chảo: đồng ý?
+5. Loại hộp: bã mía hay nhựa PP? (chốt sau)
