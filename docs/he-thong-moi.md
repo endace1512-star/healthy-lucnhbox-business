@@ -28,6 +28,10 @@ Ký hiệu: **[XM]** đã xác minh có nguồn. **[ƯT]** ước tính. **[CH�
 | Cách xây menu | Chủ dự án xây menu trước, partner chốt cách nấu, sau đó mới làm sốt | 27/11 |
 | Cách nấu | Ít dầu mỡ. Luộc và hấp là chính. Có áp chảo ít dầu. Không kho vì mất thời gian | 28/11 |
 | Bò | Tối đa 1 lần/tuần | 28/11 |
+| Áp chảo | Không phải ngày nào cũng có | 28/11 |
+| Sốt | Nấu từ chiều hôm trước, cất tủ mát. Sáng chỉ hâm | 28/11 |
+| Lịch một ngày | 2 ca: 14:00-18:00 hôm trước và 5:30-12:00 ngày bán. Chỉnh lại sau khi chạy thật | 28/11 |
+| Giữ nhiệt | Giao nóng: đóng hộp lúc còn nóng, vào thùng giữ nhiệt ngay. Đo nhiệt độ hộp lúc trao cho khách trong Soft-open | 28/11 |
 | Củ | Được dùng khoai lang, bắp, khoai tây | 28/11 |
 | Calo | Ghi trên menu. Tính sau khi chốt món và cách nấu | 27/11 |
 | Không có | Trái cây. Món chay chưa cần | 27/11 |
@@ -141,7 +145,7 @@ Thứ tự: chủ dự án xây menu → partner chốt cách nấu → làm s�
 6. Rau lá chần sát giờ đóng hộp. Củ hấp.
 7. Không lặp lại cùng một món trong 2 tuần liền.
 8. Không làm món chiên giòn, món nhiều nước, món phải cuốn hoặc xiên từng cái.
-9. Mỗi ngày tối đa 1 lựa chọn áp chảo. Áp chảo làm từng mẻ trên bếp, chậm hơn hấp nhiều (xem mục 3).
+9. Áp chảo không phải ngày nào cũng có (chốt 28/11). Áp chảo làm từng mẻ trên bếp, chậm hơn hấp nhiều (xem mục 3).
 
 ### Kho nguyên liệu gợi ý (partner chỉnh)
 
@@ -176,7 +180,7 @@ Tuần có ngày lễ: bếp nghỉ, menu tuần đó chỉ có 4 ngày, gói tu
 - Ngày lễ không tính vào số suất, vì bếp nghỉ (28/11).
 - Giá đã tính trước đây: 60.000đ/suất.
 
-## 3. Lịch một ngày (nháp, đang làm)
+## 3. Lịch một ngày (đã chốt 28/11, chỉnh lại sau khi chạy thật)
 
 Tính cho Soft-open, khoảng 30-50 suất, 2 người. Tính ngược từ mốc đóng hộp xong lúc 10:00 [ƯT].
 
@@ -211,7 +215,25 @@ Tính cho Soft-open, khoảng 30-50 suất, 2 người. Tính ngược từ mố
 - Thời gian từ lúc chín tới lúc ăn: món chín khoảng 8:00-9:15, khách ăn 12:00-12:30, tức khoảng 3-4 giờ. Cách giữ an toàn: đóng hộp lúc còn nóng, cho vào thùng giữ nhiệt ngay, giao điểm ăn muộn sau cùng. Trong Soft-open đo nhiệt độ hộp lúc trao cho khách bằng nhiệt kế đầu dò. Mốc an toàn: trên 60°C, hoặc khách ăn trong vòng 2 giờ sau khi hộp nguội xuống dưới 60°C (WHO).
 - Hộp bã mía hút hơi nước tốt hơn nhựa khi đóng nóng. Hộp nhựa đóng nóng dễ đọng nước, cơm rau bị nhão. Ghi lại cho lúc chốt hộp.
 
-## 4. Giao hàng (ghi chú)
+## 4. Đóng hộp và giao hàng (đang làm)
+
+### Cần chốt [CHỐT]
+
+Đóng hộp:
+1. Sốt để trong hũ nhỏ riêng (30-50ml, có nắp), không rưới lên cơm. Lý do: đóng hộp nóng mà rưới sốt thì cơm, rau dễ nhão. Khách cũng tự chọn ăn bao nhiêu sốt.
+2. Tem trên mỗi hộp ghi: tên khách, tên món, ngày, "Nên dùng trước 13:00". Calo thêm vào sau khi tính xong. Giờ "dùng trước" chỉnh lại theo nhiệt độ đo được trong Soft-open.
+3. Muỗng, nĩa: chỉ đưa khi khách yêu cầu lúc đặt món. Khách văn phòng thường có sẵn.
+4. Đơn từ 3 hộp trở lên: cho vào chung 1 túi, ghi tên người nhận ngoài túi.
+
+Giao:
+5. Một chuyến 10:00-12:00 giao được khoảng 6-10 điểm [ƯT]. Số điểm quan trọng hơn số hộp. Khuyến khích khách cùng tòa nhà nhận chung 1 điểm.
+6. Soft-open: giao Q.7 trước vì gần bếp, sau đó đi 1 hướng (Q.4 rồi Q.1, hoặc Trung Sơn). Nếu có khách cả 2 hướng thì tuyến xa nhất đi cuối.
+7. Khách không chọn giờ cụ thể. Bếp nhắn tin khoảng 10 phút trước khi tới. Khách xuống sảnh nhận.
+8. Gọi 2 lần không được hoặc chờ quá 5 phút: gửi lễ tân hoặc bảo vệ, chụp ảnh gửi khách. Hộp đã giao đúng địa chỉ thì không hoàn tiền.
+9. Chụp ảnh mỗi điểm giao (hộp, sảnh tòa nhà) gửi khách. Dùng làm bằng chứng khi có khiếu nại.
+10. Chỉ nhận chuyển khoản trước. Lúc giao không thu tiền mặt.
+
+### Ghi chú cũ về sức giao
 
 Khung nhận hộp đã giãn thành 10:00-12:00 (chốt 27/11). Số dưới đây tính cho khung cũ 11:00-12:00. Khung 2 giờ giao được khoảng gấp đôi.
 
@@ -223,7 +245,7 @@ Một người giao được bao nhiêu suất trong khung 11:00-12:00 [ƯT]:
 
 Như vậy "1 shipper cho 100 suất" chỉ đúng nếu phần lớn đơn là đơn công ty. Q.1, Q.4 và Trung Sơn nằm ở 2 hướng ngược nhau, nên 1 người không giao được cả 2 hướng trong 1 giờ.
 
-Thời gian chờ: hộp đóng xong khoảng 10:00-10:30, khách ăn từ 12:00, tức 1,5-2,5 giờ. Thức ăn chín không nên để ở nhiệt độ thường quá 2 giờ, trừ khi giữ trên 60°C (WHO).
+Thời gian chờ và cách giữ nóng: xem mục 3.
 
 ## 5. Lịch chuẩn bị theo giai đoạn (nháp)
 
@@ -241,8 +263,5 @@ Mùng 1 Tết Đinh Mùi là 6/2/2027.
 
 ## 6. Câu hỏi đang chờ
 
-1. Mục 3: nấu sốt từ chiều hôm trước để sáng trống 1 họng bếp cho áp chảo: đồng ý?
-2. Mục 3: giao nóng (đóng hộp nóng, thùng giữ nhiệt, đo nhiệt độ trong Soft-open): đồng ý?
-3. Mục 3: lịch 2 ca (14:00-18:00 và 5:30-12:00): đúng ý bạn chưa? Có cần sửa giờ nào?
-4. Mục 2: mỗi ngày tối đa 1 lựa chọn áp chảo: đồng ý?
-5. Loại hộp: bã mía hay nhựa PP? (chốt sau)
+1. Mục 4: 10 điểm đóng hộp và giao hàng (xem mục 4).
+2. Loại hộp: bã mía hay nhựa PP? (chốt sau). Đã chọn giao nóng, nên bã mía hợp hơn.
