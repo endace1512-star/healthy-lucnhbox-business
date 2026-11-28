@@ -32,8 +32,8 @@ Ký hiệu: **[XM]** đã xác minh có nguồn. **[ƯT]** ước tính. **[CH�
 | Sốt | Nấu từ chiều hôm trước, cất tủ mát. Sáng chỉ hâm | 28/11 |
 | Lịch một ngày | 2 ca: 14:00-18:00 hôm trước và 5:30-12:00 ngày bán. Chỉnh lại sau khi chạy thật | 28/11 |
 | Giữ nhiệt | Giao nóng: đóng hộp lúc còn nóng, vào thùng giữ nhiệt ngay. Đo nhiệt độ hộp lúc trao cho khách trong Soft-open | 28/11 |
-| Đóng hộp | Sốt trong hũ riêng. Nhãn thiết kế riêng có logo. Luôn kèm muỗng, nĩa. Đơn từ 3 hộp cho chung 1 túi | 28/11 |
-| Khi giao | Khách luôn chốt giờ giao. Tuyến tự sắp mỗi ngày. Khách xuống sảnh. Không gặp khách thì gửi lễ tân, chụp ảnh. Chụp ảnh mọi điểm giao. Chỉ nhận chuyển khoản trước | 28/11 |
+| Đóng hộp | Sốt trong hũ riêng. Nhãn màu có logo do bên sản xuất hộp dán sẵn, bếp dán thêm 1 tem nhiệt. Luôn kèm bộ muỗng nĩa gỗ, giấy ăn, tăm. Đơn từ 3 hộp cho chung 1 túi | 28/11 |
+| Khi giao | Khách chốt giờ giao ngay khi đăng ký. Tuyến tự sắp mỗi ngày. Vượt sức giao thì thuê shipper theo giờ. Khách xuống sảnh. Không gặp khách thì gửi lễ tân, chụp ảnh. Chụp ảnh mọi điểm giao. Chỉ nhận chuyển khoản trước | 28/11 |
 | Khách lúc đầu | Chủ yếu khách lẻ. Chưa làm chương trình đặt chung | 28/11 |
 | Củ | Được dùng khoai lang, bắp, khoai tây | 28/11 |
 | Calo | Ghi trên menu. Tính sau khi chốt món và cách nấu | 27/11 |
@@ -45,6 +45,7 @@ Ký hiệu: **[XM]** đã xác minh có nguồn. **[ƯT]** ước tính. **[CH�
 | Khi đi giao | Partner dọn bếp, tổng hợp thừa thiếu | 27/11 |
 | Hộp | Bã mía hoặc nhựa. Chốt sau | 27/11 |
 | Máy móc | Ngân sách 60 triệu, có thể điều chỉnh | 27/11 |
+| Bản trình bày partner | [ke-hoach-van-hanh.pdf](ke-hoach-van-hanh.pdf): tổng hợp đã chốt và cần thảo luận, tới hết mục 4 | 28/11 |
 | Checklist mặt bằng | Đã chốt, rút gọn còn 3 trang. Bản in: [checklist-mat-bang.pdf](checklist-mat-bang.pdf) | 28/11 |
 | Thương hiệu, trang bán | Làm sau khi xong quy trình | 27/11 |
 
@@ -218,64 +219,58 @@ Tính cho Soft-open, khoảng 30-50 suất, 2 người. Tính ngược từ mố
 - Thời gian từ lúc chín tới lúc ăn: món chín khoảng 8:00-9:15, khách ăn 12:00-12:30, tức khoảng 3-4 giờ. Cách giữ an toàn: đóng hộp lúc còn nóng, cho vào thùng giữ nhiệt ngay, giao điểm ăn muộn sau cùng. Trong Soft-open đo nhiệt độ hộp lúc trao cho khách bằng nhiệt kế đầu dò. Mốc an toàn: trên 60°C, hoặc khách ăn trong vòng 2 giờ sau khi hộp nguội xuống dưới 60°C (WHO).
 - Hộp bã mía hút hơi nước tốt hơn nhựa khi đóng nóng. Hộp nhựa đóng nóng dễ đọng nước, cơm rau bị nhão. Ghi lại cho lúc chốt hộp.
 
-## 4. Đóng hộp và giao hàng (đang làm)
+## 4. Đóng hộp và giao hàng (đã chốt 28/11)
 
-### Đã chốt (28/11)
-
-Đóng hộp:
+### Đóng hộp
 1. Sốt để trong hũ nhỏ riêng (30-50ml, có nắp), không rưới lên cơm. Đóng hộp nóng mà rưới sốt thì cơm, rau dễ nhão.
-2. Mỗi hộp dán 1 nhãn có thiết kế riêng: logo và vài thông tin thương hiệu để tăng nhận diện, cùng tên khách, tên món, ngày, "Nên dùng trước 13:00". Calo thêm sau. Giờ "dùng trước" chỉnh theo nhiệt độ đo trong Soft-open.
-3. Luôn giao kèm muỗng, nĩa.
-4. Đơn từ 3 hộp trở lên cho chung 1 túi, ghi tên người nhận ngoài túi. Lưu ý: lúc đầu chủ yếu là khách lẻ vì thương hiệu mới. Chưa làm chương trình mời khách đặt chung.
+2. Nhãn màu có logo và thông tin thương hiệu: bên sản xuất hộp dán sẵn khi giao hộp. Ở bếp chỉ dán 1 tem nhiệt: tên khách, tên món, ngày, "Nên dùng trước 13:00". Calo thêm sau. Giờ "dùng trước" chỉnh theo nhiệt độ đo trong Soft-open.
+3. Mỗi hộp kèm 1 bộ: muỗng, nĩa gỗ, giấy ăn, tăm.
+4. Đơn từ 3 hộp trở lên cho chung 1 túi, ghi tên người nhận ngoài túi. Lúc đầu chủ yếu là khách lẻ vì thương hiệu mới. Chưa làm chương trình mời khách đặt chung.
 
-Giao:
-5. Đếm sức giao theo số điểm, không theo số hộp. Một chuyến 10:00-12:00 giao được khoảng 6-10 điểm [ƯT].
-6. Tuyến giao: chủ dự án tự sắp xếp mỗi ngày theo đơn thật.
-7. Khách luôn phải chốt giờ giao. Nhắn tin khoảng 10 phút trước khi tới. Khách xuống sảnh nhận.
-8. Gọi 2 lần không được hoặc chờ quá 5 phút: gửi lễ tân hoặc bảo vệ, chụp ảnh gửi khách. Hộp đã giao đúng địa chỉ thì không hoàn tiền.
-9. Chụp ảnh mỗi điểm giao (hộp, sảnh tòa nhà) gửi khách, làm bằng chứng khi có khiếu nại.
-10. Chỉ nhận chuyển khoản trước. Lúc giao không thu tiền mặt.
+### Giao
+5. Khách chốt giờ giao ngay khi đăng ký.
+6. Chủ dự án tự sắp tuyến mỗi ngày theo đơn thật. Nhắn khách khoảng 10 phút trước khi tới. Khách xuống sảnh nhận.
+7. Gọi 2 lần không được hoặc chờ quá 5 phút: gửi lễ tân hoặc bảo vệ, chụp ảnh gửi khách. Hộp đã giao đúng địa chỉ thì không hoàn tiền.
+8. Chụp ảnh mỗi điểm giao (hộp, sảnh tòa nhà) gửi khách, làm bằng chứng khi có khiếu nại.
+9. Chỉ nhận chuyển khoản trước. Lúc giao không thu tiền mặt.
+10. Chủ dự án dự kiến 2 giờ giao được 50 suất. Vượt sức giao thì thuê shipper theo giờ. Số shipper chốt sau Soft-open.
 
-### Hệ quả cần biết [ƯT]
-- Khách lẻ thường 1-2 hộp mỗi điểm. 6-10 điểm mỗi chuyến tức khoảng 6-20 hộp. Mốc "dưới 50 suất thì tự giao" chỉ đúng khi nhiều khách nhận chung một chỗ. Với khách lẻ, 1 người có thể kín sức từ khoảng 10 điểm.
-- Khách chốt giờ làm tuyến khó sắp hơn: 2 khách khác hướng cùng chọn 10:30 thì 1 người không giao đúng giờ được. Cần giới hạn khung giờ theo khu.
-- Nhãn có logo phải chờ có thương hiệu. Cần xong thiết kế và in thử trước khi nấu thử tháng 2.
+### Ý kiến cố vấn, kiểm chứng trong Soft-open [ƯT]
+- Sức giao tính theo số điểm, không theo số hộp. Khoảng 15 phút/điểm (dừng xe, gọi khách, khách xuống, đi tiếp), nên 2 giờ được khoảng 6-10 điểm.
+- Khách lẻ 1-2 hộp/điểm: 50 suất là khoảng 30-40 điểm. Gom theo tòa nhà 5-8 hộp/điểm hoặc công ty 15-25 hộp/điểm thì sức giao tăng nhiều.
+- Q.1, Q.4 và Trung Sơn nằm 2 hướng ngược nhau. Khách 2 hướng chọn cùng giờ thì 1 người không kịp.
+- Đề xuất: tìm sẵn 1 shipper dự phòng trước ngày đầu Soft-open. Mỗi ngày ghi số điểm và số phút mỗi điểm.
+- Nhãn do bên làm hộp dán: phải có logo và chốt loại hộp, nhà cung cấp hộp trước giữa tháng 1.
 
-### Cần chốt [CHỐT]
-11. Cách in nhãn: (A) 1 nhãn in nhiệt, logo đen trắng, in đủ thông tin mỗi ngày. Rẻ, nhanh, dán 1 lần. (B) Nhãn màu có logo in sẵn số lượng lớn, cộng 1 tem nhiệt nhỏ cho thông tin từng khách. Đẹp hơn, nhưng mỗi hộp dán 2 lần.
-12. Muỗng, nĩa: gỗ hay nhựa? Có kèm khăn giấy không?
-13. Khung giờ giao: khung 30 phút. Mỗi khu chỉ mở một số khung. Khách chọn 1 khung cố định cho cả tuần, muốn đổi thì báo trước 1 ngày.
-14. Trong Soft-open, khi số điểm vượt sức 1 người: (a) giới hạn số điểm nhận mỗi ngày, (b) thuê shipper theo giờ sớm hơn, (c) gọi dịch vụ giao theo chuyến cho điểm xa.
+## 5. Khách hàng, giá, cách bán (đang làm)
 
-### Ghi chú cũ về sức giao
+Đề xuất [CHỐT]:
+1. Gói tuần: khách chọn từ 3 bữa trở lên trong tuần, cùng giá 65.000đ/bữa.
+2. Ăn thử 1 bữa cho khách mới: mỗi khách 1 lần, giá 65.000đ, đặt trước 1 ngày, lấy từ phần nấu dư. Chỉ nhận ở khu và giờ đã có tuyến giao.
+3. Nhận đơn bằng Google Form (chọn món, giờ giao, địa chỉ, số điện thoại), kết quả tự vào Google Sheet. Tin nhắn Facebook, Instagram chỉ để tư vấn và gửi link.
+4. Hạn chuyển khoản trùng hạn chọn món (hết thứ 4). Chưa chuyển khoản thì chưa giữ suất. Nội dung chuyển khoản: tên và số điện thoại.
+5. Khách đăng ký lại mỗi tuần, không tự gia hạn. Thứ 2 nhắn nhắc khách cũ.
+6. Báo nghỉ 1 bữa: báo trước 12:00 ngày hôm trước thì bữa đó cộng sang tuần sau. Báo muộn hơn thì vẫn nấu, không hoàn.
+7. Khiếu nại chất lượng (làm rõ quyết định 26/11 "hoàn tiền trong 7 ngày"): khách báo trong ngày, kèm ảnh. Lỗi gồm: ôi thiu, có dị vật, thiếu món, sai món, hộp đổ vỡ. Chỉ hoàn bữa bị lỗi, khách chọn đền 1 bữa khác hoặc nhận lại tiền trong 7 ngày. Lý do báo trong ngày: mẫu lưu chỉ giữ 24 giờ.
+8. Giao trễ quá 30 phút so với giờ đã chốt (lỗi của bếp): giảm 50% bữa đó, trừ vào tuần sau.
+9. Dị ứng, kiêng: hỏi lúc đăng ký. Bếp không đổi món riêng cho từng người. Khách chọn lựa chọn còn lại trong ngày.
+10. Nguồn khách cho Soft-open: chủ dự án dự kiến lấy khách từ đâu, khoảng bao nhiêu người? [HỎI chủ dự án]
 
-Khung nhận hộp đã giãn thành 10:00-12:00 (chốt 27/11). Số dưới đây tính cho khung cũ 11:00-12:00. Khung 2 giờ giao được khoảng gấp đôi.
-
-Một người giao được bao nhiêu suất trong khung 11:00-12:00 [ƯT]:
-- Rời bếp khoảng 10:30. Khoảng 15 phút mỗi điểm (dừng xe, gọi khách, khách xuống sảnh, đi tới điểm sau). Được khoảng 5-6 điểm.
-- Khách lẻ, 1-2 hộp mỗi điểm: khoảng 5-12 suất.
-- Gom theo tòa nhà, 5-8 hộp mỗi điểm: khoảng 25-45 suất.
-- Khách công ty, 15-25 hộp mỗi điểm: khoảng 75-150 suất.
-
-Như vậy "1 shipper cho 100 suất" chỉ đúng nếu phần lớn đơn là đơn công ty. Q.1, Q.4 và Trung Sơn nằm ở 2 hướng ngược nhau, nên 1 người không giao được cả 2 hướng trong 1 giờ.
-
-Thời gian chờ và cách giữ nóng: xem mục 3.
-
-## 5. Lịch chuẩn bị theo giai đoạn (nháp)
+## 6. Lịch chuẩn bị theo giai đoạn (nháp)
 
 Mùng 1 Tết Đinh Mùi là 6/2/2027.
 
 | Giai đoạn | Thời gian | Việc chính |
 | --- | --- | --- |
 | Pre-open | Tới 20/12 | Chốt menu khung, thẻ công thức. Ký mặt bằng. Chốt danh sách máy |
-| Pre-open | 21/12 - 20/1 | Sửa bếp, lắp máy. Đăng ký hộ kinh doanh. Khám sức khỏe. Nộp hồ sơ ATTP trước Tết |
-| Pre-open | 21/1 - 15/2 | Tết. Nấu thử tăng dần 20 → 50 → 100 suất để partner quen nấu số lượng lớn. Logo và nhãn phải xong trước đợt nấu thử |
+| Pre-open | 21/12 - 20/1 | Sửa bếp, lắp máy. Đăng ký hộ kinh doanh. Khám sức khỏe. Nộp hồ sơ ATTP trước Tết. Có logo. Chốt loại hộp, đặt hộp có dán nhãn |
+| Pre-open | 21/1 - 15/2 | Tết. Nấu thử tăng dần 20 → 50 → 100 suất để partner quen nấu số lượng lớn. |
 | Pre-open | 16/2 - 28/2 | Thẩm định ATTP. Chụp ảnh món. Mở trang, nhận đặt món tuần đầu |
 | Soft-open | 2 tuần đầu tháng 3 | Bán thật, chỉ gói tuần. Đo số liệu: thời gian từng khâu, số điểm giao, nhiệt độ hộp, giá vốn |
 | Grand-open | Giữa hoặc cuối tháng 3 | Mở chính thức, quyết định thuê shipper theo số liệu Soft-open |
 | Sau tháng 3 | Tháng 4 | Quyết định có mở gói tháng không, dựa trên số khách gói tuần mua lại |
 
-## 6. Câu hỏi đang chờ
+## 7. Câu hỏi đang chờ
 
-1. Mục 4: câu 11-14 (cách in nhãn, muỗng nĩa, khung giờ giao, khi vượt sức giao).
-2. Loại hộp: bã mía hay nhựa PP? (chốt sau). Đã chọn giao nóng, nên bã mía hợp hơn.
+1. Mục 5: 10 điểm khách hàng, giá, cách bán.
+2. Loại hộp: bã mía hay nhựa PP? Đã chọn giao nóng, nên bã mía hợp hơn. Cần chốt trước giữa tháng 1 để bên làm hộp kịp dán nhãn.
